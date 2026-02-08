@@ -82,40 +82,81 @@
             alert("Shayri Copied Successfully! 🚀");
         }
     </script>
-    <script>
-        const database = [{ text: "Hathiyar toh sirf shauk ke liye rakha karte hain, khauf ke liye toh bas naam hi kaafi hai. 😎", cat: "hindi", lang: "Hindi" },
-{ text: "I don't have a heart of stone, but I'm not a fool either.", cat: "english", lang: "English" },
-{ text: "Mohabbat ki dastan mein har mod par dhokha tha, humne toh unhe apna samjha par wo koi aur tha.", cat: "sad", lang: "Hindi" },
-{ text: "Teri aankhon ke darya mein doob jane ka dil karta hai.", cat: "romantic", lang: "Hindi" },
-{ text: "Dil-e-nadan tujhe hua kya hai, akhir is dard ki dawa kya hai?", cat: "urdu", lang: "Urdu" },
-{ text: "Will you be my forever in this temporary world? 💍", cat: "propose", lang: "English" },
-{ text: "Waqt aane do beta, jawab bhi denge aur hisaab bhi lenge!", cat: "hindi", lang: "Hindi" },
-{ text: "Sometimes, silence is the loudest scream of pain.", cat: "sad", lang: "English" },
-{ text: "Ishq wo nahi jo mil jaye, ishq wo hai jo na mil kar bhi hamesha zinda rahe.", cat: "romantic", lang: "Hindi" },
-{ text: "Duniya ki bheed mein khud ko kho diya maine, unhe paane ki chahat mein sab kuch ro diya maine.", cat: "sad", lang: "Hindi" }
-];
+    <script>    let currentPage = 1;
+    const rowsPerPage = 10; 
 
-            
+    const database = [
+        { text: "Hathiyar toh sirf shauk ke liye rakha karte hain, khauf ke liye toh bas naam hi kaafi hai. 😎", cat: "hindi", lang: "Hindi" },
+        { text: "I don't have a heart of stone, but I'm not a fool either.", cat: "english", lang: "English" },
+        { text: "Mohabbat ki dastan mein har mod par dhokha tha, humne toh unhe apna samjha par wo koi aur tha.", cat: "sad", lang: "Hindi" },
+        { text: "Teri aankhon ke darya mein doob jane ka dil karta hai.", cat: "romantic", lang: "Hindi" },
+        { text: "Dil-e-nadan tujhe hua kya hai, akhir is dard ki dawa kya hai?", cat: "urdu", lang: "Urdu" },
+        { text: "Will you be my forever in this temporary world? 💍", cat: "propose", lang: "English" },
+        { text: "Waqt aane do beta, jawab bhi denge aur hisaab bhi lenge!", cat: "hindi", lang: "Hindi" },
+        { text: "Sometimes, silence is the loudest scream of pain.", cat: "sad", lang: "English" },
+        { text: "Ishq wo nahi jo mil jaye, ishq wo hai jo na mil kar bhi hamesha zinda rahe.", cat: "romantic", lang: "Hindi" },
+        { text: "Duniya ki bheed mein khud ko kho diya maine, unhe paane ki chahat mein sab kuch ro diya maine.", cat: "sad", lang: "Hindi" }            { text: "Sher apna thikana khud banate hain, bheed mein toh kutte chala karte hain.", cat: "hindi", lang: "Hindi" },
+            { text: "True love never dies, it only gets stronger with time.", cat: "romantic", lang: "English" },
+            { text: "Zindagi ne thokar maari toh samajh aaya, apno ne hi rasta badal liya jab bura waqt aaya.", cat: "sad", lang: "Hindi" },
+            { text: "I may be quiet, but I have a lot on my mind.", cat: "english", lang: "English" },
+            { text: "Tumse milne ki tamanna hai, magar raste mein zamana khada hai.", cat: "romantic", lang: "Hindi" },
+            { text: "Aankhon mein nami aur hothon pe muskan, yahi hai meri thodi si pehchan.", cat: "sad", lang: "Hindi" },
+            { text: "Mera waqt badla hai, mera khoon nahi!", cat: "hindi", lang: "Hindi" },
+            { text: "Hazaar raaste, par manzil sirf tum.", cat: "romantic", lang: "Hindi" },
+            { text: "Broken crayons still color the same.", cat: "sad", lang: "English" },
+            { text: "Dushmani nibhao toh aise ki duniya yaad rakhe.", cat: "hindi", lang: "Hindi" },
+            { text: "Your smile is my favorite notification.", cat: "romantic", lang: "English" },
+            { text: "Dil tut gaya toh kya hua, abhi hausla zinda hai.", cat: "sad", lang: "Hindi" },
+            { text: "Style mera, attitude mera, aur jalne wale bhi mere hi hain!", cat: "hindi", lang: "Hindi" },
+            { text: "Distance means nothing when someone means everything.", cat: "romantic", lang: "English" },
+            { text: "Khamoshi behtar hai, lafzon se aksar log rooth jate hain.", cat: "sad", lang: "Hindi" },
+            { text: "King is always a King, whether in a palace or in the street.", cat: "english", lang: "English" },
+            { text: "Ek tarfa mohabbat ka nasha hi kuch aur hota hai.", cat: "romantic", lang: "Hindi" },
+            { text: "Waqt ki yaari toh har koi karta hai, maza toh tab hai jab waqt badal jaye par yaar na badle.", cat: "hindi", lang: "Hindi" },
+            { text: "I don't race, because I'm the trophy.", cat: "english", lang: "English" },
+            { text: "Tanhai ne sikhaya hai ki khud se bada koi sathi nahi.", cat: "sad", lang: "Hindi" }
 
-        function loadShayri(filter = 'all') {
+    ];
+
+        
+                function loadShayri(filter = 'all', page = 1) {
             const list = document.getElementById('shayri-list');
             list.innerHTML = '';
-            database.forEach((item, index) => {
-                if(filter === 'all' || item.cat === filter) {
-                    list.innerHTML += `
-                        <div class="shayri-card ${item.cat}">
-                            <div class="shayri-content" id="txt-${index}">${item.text}</div>
-                            <div class="card-footer">
-                                <span class="tag">#${item.cat} | ${item.lang}</span>
-                                <button class="copy-btn" onclick="copyText('txt-${index}')">Copy</button>
-                            </div>
+            let filteredData = database.filter(item => filter === 'all' || item.cat === filter);
+            
+            let start = (page - 1) * rowsPerPage;
+            let end = start + rowsPerPage;
+            let paginatedItems = filteredData.slice(start, end);
+
+            paginatedItems.forEach((item, index) => {
+                list.innerHTML += `
+                    <div class="shayri-card ${item.cat}">
+                        <div class="shayri-content" id="txt-${index}">${item.text}</div>
+                        <div class="card-footer">
+                            <span class="tag">#${item.cat} | ${item.lang}</span>
+                            <button class="copy-btn" onclick="copyText('txt-${index}')">Copy</button>
                         </div>
-                    `;
-                }
+                    </div>`;
             });
         }
-        function filterShayri(cat) { loadShayri(cat); }
-        loadShayri(); // Initial Load
+
+        function filterShayri(cat) { currentPage = 1; loadShayri(cat, currentPage); }
+
+        document.querySelectorAll('.page-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if(this.innerText === 'Next' && (currentPage * rowsPerPage) < database.length) {
+                    currentPage++;
+                    loadShayri('all', currentPage);
+                    window.scrollTo(0,0);
+                } else if(this.innerText === 'Previous' && currentPage > 1) {
+                    currentPage--;
+                    loadShayri('all', currentPage);
+                    window.scrollTo(0,0);
+                }
+            });
+        });
+
+        loadShayri(); 
     </script>
 </body>
 </html>
