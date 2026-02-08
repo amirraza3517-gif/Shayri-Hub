@@ -144,10 +144,10 @@ function renderPagination(totalPages) {
     const l = document.getElementById('list');
     let pHTML = `<div style="text-align:center; margin-top:20px; padding-bottom:20px;">`;
     if (currentPage > 1) {
-        pHTML += `<button onclick="changePage(-1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Previous</button>`;
+        pHTML += `<button onclick="changePage(-1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white; font-weight:bold;">Previous</button>`;
     }
     if (currentPage < totalPages && totalPages > 1) {
-        pHTML += `<button onclick="changePage(1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Next Page</button>`;
+        pHTML += `<button onclick="changePage(1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white; font-weight:bold;">Next Page</button>`;
     }
     pHTML += `<p style="margin-top:10px; color:#7f8c8d;">Page ${currentPage} of ${totalPages}</p></div>`;
     l.innerHTML += pHTML;
@@ -159,5 +159,5 @@ function copyText(t) {
     });
 }
 
-// Website ko chalane ke liye
+// Ye website ko start karega
 renderShayri();
