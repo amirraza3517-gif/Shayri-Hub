@@ -121,34 +121,36 @@ function changePage(step) {
 }
 function renderShayri() {
     const l = document.getElementById('list');
-    l.innerHTML = '';
+    if(!l) return;
+    l.innerHTML = ""; 
+    
     const filteredData = currentCategory === 'all' ? database : database.filter(i => i.cat === currentCategory);
-      const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const paginatedItems = filteredData.slice(startIndex, endIndex);
-paginatedItems.forEach(item => {
+
+    paginatedItems.forEach(item => {
+        const cleanText = item.text.replace(/'/g, "\\'");
         l.innerHTML += `
             <div class="shayri-card">
                 <p style="font-size:1.1rem; color:#2c3e50; line-height:1.6;">${item.text}</p>
-                <button onclick="copyText('${item.text.replace(/'/g, "\\'")}')" style="background:linear-gradient(45deg, #ff416c, #ff4b2b); color:white; border:none; padding:8px 18px; border-radius:25px; cursor:pointer; font-weight:bold;">Copy Shayri</button>
+                <button onclick="copyText('${cleanText}')" style="background:linear-gradient(45deg, #ff416c, #ff4b2b); color:white; border:none; padding:8px 18px; border-radius:25px; cursor:pointer; font-weight:bold;">Copy Shayri</button>
             </div>`;
     });
     renderPagination(totalPages);
 }
 function renderPagination(totalPages) {
     const l = document.getElementById('list');
-    let paginationHTML = `<div style="text-align:center; margin-top:20px; padding-bottom:20px;">`;
-    
+    let pHTML = `<div style="text-align:center; margin-top:20px; padding-bottom:20px;">`;
     if (currentPage > 1) {
-        paginationHTML += `<button onclick="changePage(-1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Previous</button>`;
+        pHTML += `<button onclick="changePage(-1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Previous</button>`;
     }
-    if (currentPage < totalPages) {
-        paginationHTML += `<button onclick="changePage(1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Next Page</button>`;
+    if (currentPage < totalPages && totalPages > 1) {
+        pHTML += `<button onclick="changePage(1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Next Page</button>`;
     }
-    
-    paginationHTML += `<p style="margin-top:10px; color:#7f8c8d;">Page ${currentPage} of ${totalPages}</p></div>`;
-    l.innerHTML += paginationHTML;
+    pHTML += `<p style="margin-top:10px; color:#7f8c8d;">Page ${currentPage} of ${totalPages}</p></div>`;
+    l.innerHTML += pHTML;
 }
 
 function copyText(t) {
@@ -157,5 +159,5 @@ function copyText(t) {
     });
 }
 
-// Pehli baar load hone par
+// Website ko chalane ke liye
 renderShayri();
