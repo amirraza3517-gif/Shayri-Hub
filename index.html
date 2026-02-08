@@ -3,75 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shayri Hub - Sir Muddassir</title>
+    <title>Shayri Hub</title>
     <style>
-        :root { --primary: #ff4b2b; --secondary: #ff416c; --dark: #2c3e50; }
-        body { background: #f4f4f9; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; text-align: center; }
-        .header { background: linear-gradient(45deg, var(--secondary), var(--primary)); color: white; padding: 40px 20px; border-radius: 0 0 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
-        .nav-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px auto; padding: 0 10px; }
-        .nav-btn { padding: 10px 18px; border: none; border-radius: 25px; cursor: pointer; background: white; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .nav-btn.active { background: var(--primary); color: white; }
+        :root { --primary: #ff4b2b; --secondary: #ff416c; }
+        body { background: #f4f4f9; font-family: sans-serif; margin: 0; padding: 0; text-align: center; }
+        .header { background: linear-gradient(45deg, var(--secondary), var(--primary)); color: white; padding: 30px; border-radius: 0 0 20px 20px; }
+        .nav-btn { padding: 10px 15px; margin: 5px; border: none; border-radius: 20px; cursor: pointer; background: white; font-weight: bold; }
+        .shayri-card { background: white; margin: 15px auto; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 500px; width: 85%; text-align: left; border-left: 5px solid var(--primary); }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>SHAYRI HUB</h1>
-        <p>Explore the World of Emotions</p>
-    </div>
-    <div class="nav-container">
-        <button class="nav-btn active" onclick="changeCategory('all', this)">All</button>
-        <button class="nav-btn" onclick="changeCategory('sad', this)">Sad</button>
-        <button class="nav-btn" onclick="changeCategory('romantic', this)">Romantic</button>
-        <button class="nav-btn" onclick="changeCategory('hindi', this)">Hindi</button>
+    <div class="header"><h1>SHAYRI HUB</h1><p>Sir Muddassir Special</p></div>
+    <div style="margin: 15px;">
+        <button class="nav-btn" onclick="filter('all')">All</button>
+        <button class="nav-btn" onclick="filter('sad')">Sad</button>
+        <button class="nav-btn" onclick="filter('romantic')">Love</button>
     </div>
     <div style="margin:20px auto; max-width:728px;">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6110283083121530" crossorigin="anonymous"></script>
         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6110283083121530" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
-    <div id="shayri-list"></div>
-    <style>
-        .shayri-card { background: white; margin: 20px auto; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); max-width: 600px; width: 90%; border-left: 5px solid var(--primary); text-align: left; }
-        .shayri-content { font-size: 1.2rem; line-height: 1.6; margin-bottom: 15px; color: var(--dark); }
-        .copy-btn { background: var(--primary); color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
-        .pagination { margin: 30px 0; display: flex; justify-content: center; gap: 15px; }
-        .page-btn { padding: 10px 20px; border: 1px solid #ddd; background: white; border-radius: 5px; cursor: pointer; }
-    </style>
-    <div class="pagination">
-        <button class="page-btn" onclick="prevPage()">Previous</button>
-        <button class="page-btn" onclick="nextPage()">Next</button>
-    </div>
-    <script>
-        const database = [
-            { text: "Hathiyar toh sirf shauk ke liye rakhe karte hain, khauf ke liye toh bas naam hi kaafi hai. 😎", cat: "hindi" },
-            { text: "Mohabbat ki dastan mein har mod par dhokha tha, humne toh unhe apna samjha par wo koi aur tha.", cat: "sad" },
-            { text: "Teri aankhon ke darya mein doob jane ka dil karta hai...", cat: "romantic" },
-            { text: "Dil-e-nadan tujhe hua kya hai, akhir is dard ki dawa kya hai?", cat: "urdu" },
-            { text: "Waqt aane do beta, jawab bhi denge aur hisaab bhi lenge!", cat: "hindi" },
-            { text: "Sometimes, silence is the loudest scream of pain.", cat: "sad" },
-            { text: "Zindagi ne thokar maari toh samajh aaya, apno ne hi rasta badal liya jab bura waqt aaya.", cat: "sad" },
-            { text: "True love never dies, it only gets stronger with time.", cat: "romantic" },
-            { text: "Mera waqt badla hai, mera khoon nahi!", cat: "hindi" },
-            { text: "Tanhai ne sikhaya hai ki khud se bada koi sathi nahi.", cat: "sad" }
-        ];
-        let currentPage = 1, currentCat = 'all', rows = 5;
-        function displayShayri() {
-            const list = document.getElementById('shayri-list'); list.innerHTML = '';
-            let filtered = currentCat === 'all' ? database : database.filter(i => i.cat === currentCat);
-            let paginated = filtered.slice((currentPage - 1) * rows, currentPage * rows);
-            paginated.forEach(item => {
-                list.innerHTML += `<div class="shayri-card"><div class="shayri-content">${item.text}</div><button class="copy-btn" onclick="copyText('${item.text.replace(/'/g, "\\'")}')">Copy</button></div>`;
-            });
-        }
-        function changeCategory(cat, btn) {
-            currentCat = cat; currentPage = 1;
-            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active'); displayShayri();
-        }
-        function nextPage() { currentPage++; displayShayri(); window.scrollTo(0,0); }
-        function prevPage() { if(currentPage > 1) { currentPage--; displayShayri(); window.scrollTo(0,0); } }
-        function copyText(t) { navigator.clipboard.writeText(t); alert("Copied!"); }
-        displayShayri();
-    </script>
+    <div id="list"></div>
+    <script src="shayri.js"></script>
 </body>
 </html>
