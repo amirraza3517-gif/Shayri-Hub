@@ -1,39 +1,29 @@
-// Part 1: WhatsApp Share Logic
-function shareWhatsApp(id) {
-    const textElement = document.getElementById(id);
-    if (!textElement) return;
-    
-    const text = textElement.innerText;
-    const url = window.location.href;
-    
-    // Message ko WhatsApp format mein taiyar karna
-    const shareMsg = encodeURIComponent(text + "\n\nPadhiye aur bhi aisi shayari yahan: " + url);
-    
-    // WhatsApp App ya Web kholna
-    window.open(`https://wa.me/?text=${shareMsg}`, '_blank');
-}
-// Part 2: Automatic Button Placement
-function addWhatsAppButtons() {
+// Har 1 second mein check karega aur button lagayega
+setInterval(() => {
+    // Ye aapke shayari cards ko dhund raha hai
     const cards = document.querySelectorAll('.shayri-card');
-    
-    cards.forEach((card, index) => {
-        const footer = card.querySelector('.card-footer');
-        // Check karna ki button pehle se toh nahi laga
-        if (footer && !footer.querySelector('.share-btn')) {
-            const shareBtn = document.createElement('button');
-            shareBtn.className = 'share-btn';
-            shareBtn.innerText = 'WhatsApp';
+
+    cards.forEach((card) => {
+        // Button lagane ke liye card ke andar ka footer dhundna
+        let footer = card.querySelector('.card-footer') || card;
+
+        // Agar WhatsApp button pehle se nahi hai toh lagao
+        if (!card.querySelector('.wa-share-btn')) {
+            const waBtn = document.createElement('button');
+            waBtn.className = 'wa-share-btn';
+            waBtn.innerHTML = '🟢 WhatsApp';
             
-            // Stylish Green Button Design
-            shareBtn.style.cssText = "background: #25D366; color: white; border: none; padding: 6px 12px; border-radius: 4px; margin-left: 8px; cursor: pointer; font-weight: bold; font-size: 0.8rem;";
-            
-            // Click karne par Part 1 wala function chalana
-            shareBtn.onclick = () => shareWhatsApp(`txt-${index}`);
-            
-            footer.appendChild(shareBtn);
+            // Stylish Design
+            waBtn.style.cssText = "background:#25D366; color:white; border:none; padding:7px 15px; border-radius:20px; cursor:pointer; font-weight:bold; margin-top:10px; font-size:12px; transition: 0.3s;";
+
+            waBtn.onclick = function() {
+                // Card ka text nikalna
+                const text = card.innerText.replace('🟢 WhatsApp', '').trim();
+                const siteUrl = window.location.href;
+                window.open("https://wa.me/?text=" + encodeURIComponent(text + "\n\nSuniye ye shayari: " + siteUrl));
+            };
+
+            footer.appendChild(waBtn);
         }
     });
-}
-
-// Har 2 second mein check karna (taki naye page par bhi button aa jaye)
-setInterval(addWhatsAppButtons, 2000);
+}, 1000);
