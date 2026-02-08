@@ -104,6 +104,8 @@ const database = [
     { text: "Mohabbat toh aaj bhi tumse hi hai, bas ab tumhe batane ka dil nahi karta.", cat: "sad" },
     { text: "Hasna seekh lo doston, rone ke liye toh poori zindagi baki hai.", cat: "sad" },
     { text: "Kabhi kabhi khamoshi hi sabse bada jawab hoti hai.", cat: "sad" },
+        { text: "Tum meri yad ki julfon ko savara karna. aur udaasi main mera name pukara karna. Yun bhi kar leta Hun tukdon mein Tera Ishq qubool mujhko Bachpan se sikhaya Hai guzara karna", cat: "ziyaul" },
+    
     ];
 
 let currentPage = 1;
