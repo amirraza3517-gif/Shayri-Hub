@@ -104,6 +104,8 @@ const database = [
     { text: "Mohabbat toh aaj bhi tumse hi hai, bas ab tumhe batane ka dil nahi karta.", cat: "sad" },
     { text: "Hasna seekh lo doston, rone ke liye toh poori zindagi baki hai.", cat: "sad" },
     { text: "Kabhi kabhi khamoshi hi sabse bada jawab hoti hai.", cat: "sad" },
+    ];
+
 let currentPage = 1;
 const itemsPerPage = 10;
 let currentCategory = 'all';
@@ -123,7 +125,6 @@ function renderShayri() {
     const l = document.getElementById('list');
     if(!l) return;
     l.innerHTML = ""; 
-    
     const filteredData = currentCategory === 'all' ? database : database.filter(i => i.cat === currentCategory);
     const totalPages = Math.ceil(filteredData.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
@@ -144,10 +145,10 @@ function renderPagination(totalPages) {
     const l = document.getElementById('list');
     let pHTML = `<div style="text-align:center; margin-top:20px; padding-bottom:20px;">`;
     if (currentPage > 1) {
-        pHTML += `<button onclick="changePage(-1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white; font-weight:bold;">Previous</button>`;
+        pHTML += `<button onclick="changePage(-1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Previous</button>`;
     }
     if (currentPage < totalPages && totalPages > 1) {
-        pHTML += `<button onclick="changePage(1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white; font-weight:bold;">Next Page</button>`;
+        pHTML += `<button onclick="changePage(1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Next Page</button>`;
     }
     pHTML += `<p style="margin-top:10px; color:#7f8c8d;">Page ${currentPage} of ${totalPages}</p></div>`;
     l.innerHTML += pHTML;
@@ -159,5 +160,4 @@ function copyText(t) {
     });
 }
 
-// Ye website ko start karega
 renderShayri();
