@@ -122,15 +122,12 @@ function changePage(step) {
 function renderShayri() {
     const l = document.getElementById('list');
     l.innerHTML = '';
-    
     const filteredData = currentCategory === 'all' ? database : database.filter(i => i.cat === currentCategory);
-    
-    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+      const totalPages = Math.ceil(filteredData.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const paginatedItems = filteredData.slice(startIndex, endIndex);
-
-    paginatedItems.forEach(item => {
+paginatedItems.forEach(item => {
         l.innerHTML += `
             <div class="shayri-card">
                 <p style="font-size:1.1rem; color:#2c3e50; line-height:1.6;">${item.text}</p>
