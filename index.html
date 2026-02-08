@@ -3,39 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shayri Hub - Hindi, Urdu, English, Sad, Romantic Shayari</title>
-    <meta name="description" content="Best collection of Sad, Romantic, Hindi, English, Urdu, and Propose Shayari. Copy and Share now!">
-    <meta name="keywords" content="Shayri, Sad shayari, Romantic shayari, Hindi shayari, English shayri, Propose shayri, Urdu shayri">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
-    
+    <title>Shayri Hub - Sir Muddassir</title>
     <style>
-        :root {
-            --primary: #ff4757; --secondary: #2f3542; --accent: #ffa502;
-            --sad: #1e90ff; --romantic: #ff6b81; --urdu: #2ed573; --english: #eccc68;
-        }
-        body { background: #f1f2f6; font-family: 'Poppins', 'Noto Sans Devanagari', sans-serif; margin: 0; padding: 0; color: #2f3542; }
-        .header { background: linear-gradient(45deg, #ff4757, #ffa502); color: white; padding: 40px 20px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
-        .header h1 { margin: 0; font-size: 35px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
-        .nav-container { display: flex; overflow-x: auto; background: white; padding: 10px; sticky: top; top: 0; z-index: 100; box-shadow: 0 2px 5px rgba(0,0,0,0.1); gap: 10px; }
-        .nav-btn { padding: 10px 20px; border-radius: 25px; border: none; font-weight: bold; cursor: pointer; white-space: nowrap; transition: 0.3s; background: #eee; }
+        :root { --primary: #ff4b2b; --secondary: #ff416c; --dark: #2c3e50; }
+        body { background: #f4f4f9; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; text-align: center; }
+        .header { background: linear-gradient(45deg, var(--secondary), var(--primary)); color: white; padding: 40px 20px; border-radius: 0 0 20px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .nav-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px auto; padding: 0 10px; }
+        .nav-btn { padding: 10px 18px; border: none; border-radius: 25px; cursor: pointer; background: white; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .nav-btn.active { background: var(--primary); color: white; }
-        
-        .ad-slot { width: 100%; max-width: 728px; margin: 15px auto; background: #fff; border: 1px solid #ddd; text-align: center; padding: 10px; border-radius: 8px; }
-        
-        .container { padding: 15px; max-width: 800px; margin: auto; }
-        .shayri-card { background: white; border-radius: 15px; padding: 20px; margin-bottom: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border-top: 5px solid var(--primary); position: relative; overflow: hidden; }
-        .shayri-card.sad { border-color: var(--sad); }
-        .shayri-card.romantic { border-color: var(--romantic); }
-        .shayri-card.urdu { border-color: var(--urdu); }
-        
-        .shayri-content { font-size: 18px; line-height: 1.7; margin-bottom: 15px; color: #2f3542; font-weight: 500; }
-        .card-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee; padding-top: 10px; }
-        .tag { font-size: 12px; background: #f1f2f6; padding: 4px 10px; border-radius: 5px; color: #747d8c; }
-        .copy-btn { background: var(--primary); color: white; border: none; padding: 8px 18px; border-radius: 8px; cursor: pointer; font-weight: 600; }
-        
-        .pagination { display: flex; justify-content: center; gap: 10px; margin: 30px 0; }
-        .page-btn { padding: 10px 15px; background: white; border: 1px solid #ddd; border-radius: 5px; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -43,111 +18,60 @@
         <h1>SHAYRI HUB</h1>
         <p>Explore the World of Emotions</p>
     </div>
-
     <div class="nav-container">
-        <button class="nav-btn active" onclick="filterShayri('all')">All</button>
-        <button class="nav-btn" onclick="filterShayri('sad')">Sad</button>
-        <button class="nav-btn" onclick="filterShayri('romantic')">Romantic</button>
-        <button class="nav-btn" onclick="filterShayri('hindi')">Hindi</button>
-        <button class="nav-btn" onclick="filterShayri('english')">English</button>
-        <button class="nav-btn" onclick="filterShayri('urdu')">Urdu</button>
-        <button class="nav-btn" onclick="filterShayri('propose')">Propose</button>
-  <div class="ad-slot">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6110283083121530" crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-6110283083121530"
-         data-ad-slot="auto"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
+        <button class="nav-btn active" onclick="changeCategory('all', this)">All</button>
+        <button class="nav-btn" onclick="changeCategory('sad', this)">Sad</button>
+        <button class="nav-btn" onclick="changeCategory('romantic', this)">Romantic</button>
+        <button class="nav-btn" onclick="changeCategory('hindi', this)">Hindi</button>
+    </div>
+    <div style="margin:20px auto; max-width:728px;">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6110283083121530" crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6110283083121530" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    <div id="shayri-list"></div>
+    <style>
+        .shayri-card { background: white; margin: 20px auto; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); max-width: 600px; width: 90%; border-left: 5px solid var(--primary); text-align: left; }
+        .shayri-content { font-size: 1.2rem; line-height: 1.6; margin-bottom: 15px; color: var(--dark); }
+        .copy-btn { background: var(--primary); color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
+        .pagination { margin: 30px 0; display: flex; justify-content: center; gap: 15px; }
+        .page-btn { padding: 10px 20px; border: 1px solid #ddd; background: white; border-radius: 5px; cursor: pointer; }
+    </style>
+    <div class="pagination">
+        <button class="page-btn" onclick="prevPage()">Previous</button>
+        <button class="page-btn" onclick="nextPage()">Next</button>
+    </div>
     <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-</div>
-
-
-        // Copy Function
-        function copyText(id) {
-            const text = document.getElementById(id).innerText;
-            navigator.clipboard.writeText(text);
-            alert("Shayri Copied Successfully! 🚀");
-        }
-    </script>
-    <script>    let currentPage = 1;
-    const rowsPerPage = 10; 
-
-    const database = [
-        { text: "Hathiyar toh sirf shauk ke liye rakha karte hain, khauf ke liye toh bas naam hi kaafi hai. 😎", cat: "hindi", lang: "Hindi" },
-        { text: "I don't have a heart of stone, but I'm not a fool either.", cat: "english", lang: "English" },
-        { text: "Mohabbat ki dastan mein har mod par dhokha tha, humne toh unhe apna samjha par wo koi aur tha.", cat: "sad", lang: "Hindi" },
-        { text: "Teri aankhon ke darya mein doob jane ka dil karta hai.", cat: "romantic", lang: "Hindi" },
-        { text: "Dil-e-nadan tujhe hua kya hai, akhir is dard ki dawa kya hai?", cat: "urdu", lang: "Urdu" },
-        { text: "Will you be my forever in this temporary world? 💍", cat: "propose", lang: "English" },
-        { text: "Waqt aane do beta, jawab bhi denge aur hisaab bhi lenge!", cat: "hindi", lang: "Hindi" },
-        { text: "Sometimes, silence is the loudest scream of pain.", cat: "sad", lang: "English" },
-        { text: "Ishq wo nahi jo mil jaye, ishq wo hai jo na mil kar bhi hamesha zinda rahe.", cat: "romantic", lang: "Hindi" },
-        { text: "Duniya ki bheed mein khud ko kho diya maine, unhe paane ki chahat mein sab kuch ro diya maine.", cat: "sad", lang: "Hindi" }            { text: "Sher apna thikana khud banate hain, bheed mein toh kutte chala karte hain.", cat: "hindi", lang: "Hindi" },
-            { text: "True love never dies, it only gets stronger with time.", cat: "romantic", lang: "English" },
-            { text: "Zindagi ne thokar maari toh samajh aaya, apno ne hi rasta badal liya jab bura waqt aaya.", cat: "sad", lang: "Hindi" },
-            { text: "I may be quiet, but I have a lot on my mind.", cat: "english", lang: "English" },
-            { text: "Tumse milne ki tamanna hai, magar raste mein zamana khada hai.", cat: "romantic", lang: "Hindi" },
-            { text: "Aankhon mein nami aur hothon pe muskan, yahi hai meri thodi si pehchan.", cat: "sad", lang: "Hindi" },
-            { text: "Mera waqt badla hai, mera khoon nahi!", cat: "hindi", lang: "Hindi" },
-            { text: "Hazaar raaste, par manzil sirf tum.", cat: "romantic", lang: "Hindi" },
-            { text: "Broken crayons still color the same.", cat: "sad", lang: "English" },
-            { text: "Dushmani nibhao toh aise ki duniya yaad rakhe.", cat: "hindi", lang: "Hindi" },
-            { text: "Your smile is my favorite notification.", cat: "romantic", lang: "English" },
-            { text: "Dil tut gaya toh kya hua, abhi hausla zinda hai.", cat: "sad", lang: "Hindi" },
-            { text: "Style mera, attitude mera, aur jalne wale bhi mere hi hain!", cat: "hindi", lang: "Hindi" },
-            { text: "Distance means nothing when someone means everything.", cat: "romantic", lang: "English" },
-            { text: "Khamoshi behtar hai, lafzon se aksar log rooth jate hain.", cat: "sad", lang: "Hindi" },
-            { text: "King is always a King, whether in a palace or in the street.", cat: "english", lang: "English" },
-            { text: "Ek tarfa mohabbat ka nasha hi kuch aur hota hai.", cat: "romantic", lang: "Hindi" },
-            { text: "Waqt ki yaari toh har koi karta hai, maza toh tab hai jab waqt badal jaye par yaar na badle.", cat: "hindi", lang: "Hindi" },
-            { text: "I don't race, because I'm the trophy.", cat: "english", lang: "English" },
-            { text: "Tanhai ne sikhaya hai ki khud se bada koi sathi nahi.", cat: "sad", lang: "Hindi" }
-
-    ];
-
-        
-                function loadShayri(filter = 'all', page = 1) {
-            const list = document.getElementById('shayri-list');
-            list.innerHTML = '';
-            let filteredData = database.filter(item => filter === 'all' || item.cat === filter);
-            
-            let start = (page - 1) * rowsPerPage;
-            let end = start + rowsPerPage;
-            let paginatedItems = filteredData.slice(start, end);
-
-            paginatedItems.forEach((item, index) => {
-                list.innerHTML += `
-                    <div class="shayri-card ${item.cat}">
-                        <div class="shayri-content" id="txt-${index}">${item.text}</div>
-                        <div class="card-footer">
-                            <span class="tag">#${item.cat} | ${item.lang}</span>
-                            <button class="copy-btn" onclick="copyText('txt-${index}')">Copy</button>
-                        </div>
-                    </div>`;
+        const database = [
+            { text: "Hathiyar toh sirf shauk ke liye rakhe karte hain, khauf ke liye toh bas naam hi kaafi hai. 😎", cat: "hindi" },
+            { text: "Mohabbat ki dastan mein har mod par dhokha tha, humne toh unhe apna samjha par wo koi aur tha.", cat: "sad" },
+            { text: "Teri aankhon ke darya mein doob jane ka dil karta hai...", cat: "romantic" },
+            { text: "Dil-e-nadan tujhe hua kya hai, akhir is dard ki dawa kya hai?", cat: "urdu" },
+            { text: "Waqt aane do beta, jawab bhi denge aur hisaab bhi lenge!", cat: "hindi" },
+            { text: "Sometimes, silence is the loudest scream of pain.", cat: "sad" },
+            { text: "Zindagi ne thokar maari toh samajh aaya, apno ne hi rasta badal liya jab bura waqt aaya.", cat: "sad" },
+            { text: "True love never dies, it only gets stronger with time.", cat: "romantic" },
+            { text: "Mera waqt badla hai, mera khoon nahi!", cat: "hindi" },
+            { text: "Tanhai ne sikhaya hai ki khud se bada koi sathi nahi.", cat: "sad" }
+        ];
+        let currentPage = 1, currentCat = 'all', rows = 5;
+        function displayShayri() {
+            const list = document.getElementById('shayri-list'); list.innerHTML = '';
+            let filtered = currentCat === 'all' ? database : database.filter(i => i.cat === currentCat);
+            let paginated = filtered.slice((currentPage - 1) * rows, currentPage * rows);
+            paginated.forEach(item => {
+                list.innerHTML += `<div class="shayri-card"><div class="shayri-content">${item.text}</div><button class="copy-btn" onclick="copyText('${item.text.replace(/'/g, "\\'")}')">Copy</button></div>`;
             });
         }
-
-        function filterShayri(cat) { currentPage = 1; loadShayri(cat, currentPage); }
-
-        document.querySelectorAll('.page-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                if(this.innerText === 'Next' && (currentPage * rowsPerPage) < database.length) {
-                    currentPage++;
-                    loadShayri('all', currentPage);
-                    window.scrollTo(0,0);
-                } else if(this.innerText === 'Previous' && currentPage > 1) {
-                    currentPage--;
-                    loadShayri('all', currentPage);
-                    window.scrollTo(0,0);
-                }
-            });
-        });
-
-        loadShayri(); 
+        function changeCategory(cat, btn) {
+            currentCat = cat; currentPage = 1;
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active'); displayShayri();
+        }
+        function nextPage() { currentPage++; displayShayri(); window.scrollTo(0,0); }
+        function prevPage() { if(currentPage > 1) { currentPage--; displayShayri(); window.scrollTo(0,0); } }
+        function copyText(t) { navigator.clipboard.writeText(t); alert("Copied!"); }
+        displayShayri();
     </script>
 </body>
 </html>
