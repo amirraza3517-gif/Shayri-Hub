@@ -104,19 +104,54 @@ const database = [
     { text: "Mohabbat toh aaj bhi tumse hi hai, bas ab tumhe batane ka dil nahi karta.", cat: "sad" },
     { text: "Hasna seekh lo doston, rone ke liye toh poori zindagi baki hai.", cat: "sad" },
     { text: "Kabhi kabhi khamoshi hi sabse bada jawab hoti hai.", cat: "sad" },
-  ];
+let currentPage = 1;
+const itemsPerPage = 10;
+let currentCategory = 'all';
 
 function filter(c) {
-    const l = document.getElementById('list'); 
+    currentCategory = c;
+    currentPage = 1;
+    renderShayri();
+}
+
+function changePage(step) {
+    currentPage += step;
+    window.scrollTo(0,0);
+    renderShayri();
+}
+function renderShayri() {
+    const l = document.getElementById('list');
     l.innerHTML = '';
-    const f = c === 'all' ? database : database.filter(i => i.cat === c);
-    f.forEach(item => {
+    
+    const filteredData = currentCategory === 'all' ? database : database.filter(i => i.cat === currentCategory);
+    
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const paginatedItems = filteredData.slice(startIndex, endIndex);
+
+    paginatedItems.forEach(item => {
         l.innerHTML += `
             <div class="shayri-card">
                 <p style="font-size:1.1rem; color:#2c3e50; line-height:1.6;">${item.text}</p>
-                <button onclick="copyText('${item.text.replace(/'/g, "\\'")}')" style="background:linear-gradient(45deg, #ff416c, #ff4b2b); color:white; border:none; padding:8px 18px; border-radius:25px; cursor:pointer; font-weight:bold; box-shadow: 0 4px 15px rgba(255, 75, 43, 0.3);">Copy Shayri</button>
+                <button onclick="copyText('${item.text.replace(/'/g, "\\'")}')" style="background:linear-gradient(45deg, #ff416c, #ff4b2b); color:white; border:none; padding:8px 18px; border-radius:25px; cursor:pointer; font-weight:bold;">Copy Shayri</button>
             </div>`;
     });
+    renderPagination(totalPages);
+}
+function renderPagination(totalPages) {
+    const l = document.getElementById('list');
+    let paginationHTML = `<div style="text-align:center; margin-top:20px; padding-bottom:20px;">`;
+    
+    if (currentPage > 1) {
+        paginationHTML += `<button onclick="changePage(-1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Previous</button>`;
+    }
+    if (currentPage < totalPages) {
+        paginationHTML += `<button onclick="changePage(1)" style="padding:10px 15px; margin:5px; border-radius:10px; border:none; background:#3498db; color:white;">Next Page</button>`;
+    }
+    
+    paginationHTML += `<p style="margin-top:10px; color:#7f8c8d;">Page ${currentPage} of ${totalPages}</p></div>`;
+    l.innerHTML += paginationHTML;
 }
 
 function copyText(t) {
@@ -125,5 +160,5 @@ function copyText(t) {
     });
 }
 
-// Default call to show all shayri
-filter('all');
+// Pehli baar load hone par
+renderShayri();
