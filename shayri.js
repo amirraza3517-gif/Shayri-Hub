@@ -118,6 +118,21 @@ const database = [
         { text: "Teri yaad bhi kamal karti hai..<br>Kaise kaise dil se sawal karti hai..<br>Ek pal bhi tanha hone nahi deti..<br>Teri yaad bhi mera kitna khayal rakhti hai", cat: "romantic" },
     { text: "Tere chehre ki wo khoobsurat tasweer kaha se lau..<br>Har lamha tere sath gujare aisi takdeer kaha se lau..<br>Main mangta hu har safar main sath tera..<br>Tu hi bata mere haathon me wo lakeer kaha se lau..", cat: "romantic" },
     { text: "Hum tumhe keh na sake chalo aaj iqrar karte hai..<br>Jisse tum roz dekhte ho aaine mein..<br>Usse hum bahut pyaar karte hai..", cat: "romantic" },
+        { text: "Aapki yaad sataye toh dil kya kare ❤️<br>Yaad dil se na jaye toh dil kya kare 🥀<br>Socha tha sapno mein mulaqat hogi ✨<br>Par neend hi na aaye toh hum kya kare!! 😴", cat: "romantic" },
+    { text: "आपकी याद सताये तो दिल क्या करे ❤️<br>याद दिल से न जाये तो दिल क्या करे 🥀<br>सोचा था सपनों में मुलाक़ात होगी ✨<br>पर नींद ही न आये तो हम क्या करे!! 😴", cat: "romantic" },
+    { text: "آپکی یاد ستائے تو دل کیا کرے ❤️<br>یاد دل سے نہ جائے تو دل کیا کرے 🥀<br>سوچا था سپنوں میں ملاقات ہوگی ✨<br>پر نیند ہی نہ آئے تو ہم کیا کرے!! 😴", cat: "romantic" },
+
+    { text: "Zulfon ki chhaon mein sukoon mil jaata hai ✨<br>Tumhara naam hi labon par muskurahat laata hai 😊<br>Kuch toh baat hai tumhari har ek adaa mein ❤️<br>Jo dil ko baar-baar tumse mohabbat karwata hai.. 🥰", cat: "romantic" },
+    { text: "ज़ुल्फों की छांव में सुकून मिल जाता है ✨<br>तुम्हारा नाम ही लबों पर मुस्कुराहट लाता है 😊<br>कुछ तो बात है तुम्हारी हर एक अदा में ❤️<br>जो दिल को बार-बार तुमसे मोहब्बत करवाता है.. 🥰", cat: "romantic" },
+    { text: "زلفوں کی چھاؤں میں سکون مل جاتا ہے ✨<br>تمہارا نام ہی لبوں پر مسکراہٹ لاتا ہے 😊<br>کچھ تو بات ہے تمہاری ہر ایک ادا میں ❤️<br>جو دل کو بار بار تم سے محبت کرواتا ہے.. 🥰", cat: "romantic" },
+
+    { text: "Dard dete ho aur khud hi sawal karte ho 💔<br>Tum bhi ae sanam.... kya kamal karte ho !! ✨<br>Dekhkar pooch liya hai haal mera jaani ❤️<br>Chalo shukr hai.... kuch toh khayal karte ho || 🥰", cat: "romantic" },
+    { text: "दर्द देते हो और ख़ुद ही सवाल करते हो 💔<br>तुम भी ऐ सनम.... क्या कमाल करते हो !! ✨<br>देखकर पूछ लिया है हाल मेरा जानी ❤️<br>चलो शुक्र है.... कुछ तो ख़याल करते हो || 🥰", cat: "romantic" },
+    { text: "درد دیتے ہو اور خود ہی سوال کرتے ہو 💔<br>تم بھی اے صنم.... کیا کمال کرتے ہو !! ✨<br>دیکھ کر پوچھ لیا ہے حال میرا جانی ❤️<br>چلو شکر ہے.... کچھ تو خیال کرتے ہو || 🥰", cat: "romantic" },
+
+    { text: "Khubsurti se dhokha na khana aye IBN Adam 🥀<br>Talwar kitni bhi khubsurat ho mangti toh khoon hai..! ⚔️❤️", cat: "romantic" },
+    { text: "खूबसूरती से धोखा न खाना ऐ इब्न-ए-आदम 🥀<br>तलवार कितनी भी खूबसूरत हो मांगती तो खून है..! ⚔️❤️", cat: "romantic" },
+    { text: "خوبصورتی سے دھوکہ نہ کھانا اے ابن آدم 🥀<br>تلوار کتنی بھی خوبصورت ہو مانگتی تو خون ہے..! ⚔️❤️", cat: "romantic" },
     
 
     
