@@ -6,54 +6,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="xpaR8Nv3srpSIkFNrBqgkOYstdaxBhxjkuPcscOYfOA" />
-    <title>Shayri Hub</title>
     
+    <title>Shayri Hub - Best Hindi Sad & Romantic Shayari Collection</title>
+    <meta name="description" content="Shayri Hub par payein behtareen Sad, Romantic aur Ziyaul shayari ka naya collection. Sir Muddassir special shayari for WhatsApp and Social Media.">
+    <meta name="keywords" content="Shayri Hub, Hindi Shayari, Sad Shayari, Romantic Shayari, Sir Muddassir, Ziyaul Shayari">
+    <meta name="author" content="Sir Muddassir">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Shayri Hub - Best Hindi Shayari">
+    <meta property="og:description" content="Behtareen Hindi shayari ka khazana - Sad, Romantic aur bahut kuch.">
+    <meta property="og:url" content="https://shayri-hub.vercel.app/">
+    <meta property="og:type" content="website">
+
     <style>
-        :root { --primary: #ff4b2b; --secondary: #ff416c; }
-        body { background: #f4f4f9; font-family: sans-serif; margin: 0; padding: 0; text-align: center; }
-        .header { background: linear-gradient(45deg, var(--secondary), var(--primary)); color: white; padding: 30px; border-radius: 0 0 20px 20px; }
-        .nav-btn { padding: 10px 15px; margin: 5px; border: none; border-radius: 20px; cursor: pointer; background: white; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .shayri-card { background: white; margin: 15px auto; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); max-width: 500px; width: 85%; text-align: left; border-left: 5px solid var(--primary); }
+        :root { --primary: #ff4b2b; --secondary: #ff416c; --bg: #f4f4f9; }
+        body { background: var(--bg); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; text-align: center; color: #333; }
+        .header { background: linear-gradient(45deg, var(--secondary), var(--primary)); color: white; padding: 40px 20px; border-radius: 0 0 30px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .header h1 { margin: 0; font-size: 2.5rem; letter-spacing: 2px; }
+        .nav-container { margin: 20px; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; }
+        .nav-btn { padding: 12px 25px; border: none; border-radius: 25px; cursor: pointer; background: white; font-weight: bold; transition: 0.3s; box-shadow: 0 3px 6px rgba(0,0,0,0.1); color: var(--primary); }
+        .nav-btn:hover { background: var(--primary); color: white; transform: translateY(-2px); }
+        .shayri-card { background: white; margin: 20px auto; padding: 25px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); max-width: 550px; width: 90%; text-align: left; border-left: 6px solid var(--primary); position: relative; }
+        #list { min-height: 300px; }
+        .ad-container { margin: 25px auto; max-width: 728px; width: 100%; overflow: hidden; }
+        footer { margin-top: 60px; padding: 30px; background: #fff; border-top: 1px solid #eee; }
+        .footer-links a { color: var(--primary); text-decoration: none; margin: 0 10px; font-weight: 500; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>SHAYRI HUB</h1>
-        <p>Sir Muddassir Special</p>
-    </div>
 
-    <div style="margin: 15px;">
-        <button class="nav-btn" onclick="filter('all')">All</button>
+    <header class="header">
+        <h1>SHAYRI HUB</h1>
+        <p>Dil Se Dil Tak - Sir Muddassir Special</p>
+    </header>
+
+    <nav class="nav-container">
+        <button class="nav-btn" onclick="filter('all')">All Shayari</button>
         <button class="nav-btn" onclick="filter('sad')">Sad</button>
         <button class="nav-btn" onclick="filter('romantic')">Romantic</button>
-        <button class="nav-btn" onclick="filter('ziyaul')">Ziyaul</button>
-    </div>
+        <button class="nav-btn" onclick="filter('ziyaul')">Ziyaul Special</button>
+    </nav>
 
-    <div style="margin:20px auto; max-width:728px;">
+    <div class="ad-container">
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-client="ca-pub-4112080066147828"
              data-ad-slot="auto"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
     </div>
 
-    <div id="list"></div>
+    <main id="list">
+        <noscript>
+            <div class="shayri-card">
+                <p>Welcome to Shayri Hub. Yahan aapko milti hai behtareen Hindi shayari. Please enable JavaScript to see all updates.</p>
+            </div>
+        </noscript>
+    </main>
+
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-4112080066147828"
+             data-ad-slot="auto"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Home</a> | 
+            <a href="mailto:Amirraza2517@gmail.com">Contact Us</a> |
+            <a href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+        <p style="color: #888; font-size: 0.9rem; margin-top: 15px;">&copy; 2026 Shayri Hub | Managed by Sir Muddassir</p>
+    </footer>
 
     <script src="shayri.js"></script>
     <script src="features.js"></script>
-
-    <footer style="margin-top: 50px; padding: 20px; background: #ffffff; border-top: 1px solid #ddd; text-align: center;">
-        <p style="color: #666; font-size: 0.9rem;">
-            &copy; 2026 Shayri Hub | 
-            <a href="mailto:Amirraza2517@gmail.com" style="color: #ff4b2b; text-decoration: none;">Contact Us</a>
-        </p>
-        <p style="font-size: 0.7rem; color: #999; margin-top: 10px;">
-            Privacy Policy: Hum aapka koi personal data collect nahi karte. Ads Google AdSense dwara dikhaye jaate hain.
-        </p>
-    </footer>
 </body>
 </html>
