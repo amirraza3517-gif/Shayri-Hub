@@ -766,6 +766,19 @@ const database = [
     { text: "Waqt aane do jawab bhi denge aur hisab bhi lenge,<br>Abhi toh bas khel shuru hua hai, poora maidan bhi lenge.<br>Hum toh wo parinde hain jo aag mein bhi udte hain,<br>Humein pinjron mein rehna bhata nahi. 😎🦅🔥", cat: "attitude" },
     { text: "वक़्त आने दो जवाब भी देंगे और हिसाब भी लेंगे,<br>अभी तो बस खेल शुरू हुआ है, पूरा मैदान भी लेंगे।<br>हम तो वो परिंदे हैं जो आग में भी उड़ते हैं,<br>हमें पिंजरों में रहना भाता नहीं। 😎🦅🔥", cat: "attitude" },
     { text: "وقت آنے دو جواب بھی دیں گے اور حساب بھی لیں گے<br>ابھی تو بس کھیل شروع ہوا ہے پورا میدان بھی لیں گے<br>ہم تو وہ پرندے ہیں جو آگ میں بھی اڑتے ہیں<br>ہمیں پنجروں میں رہنا بھاتا نہیں ۔ 😎🦅🔥", cat: "attitude" },
+      { text: "Zindagi se yahi gila hai humein,<br>Tu bohot dair se mila hai humein.<br>Humsafar saath toh chale lekin,<br>Waqt ne kab mauka diya hai humein. ✨🥀📜", cat: "all" },
+    { text: "ज़िन्दगी से यही गिला है हमें,<br>तू बहुत देर से मिला है हमें।<br>हमसफ़र साथ तो चले लेकिन,<br>वक़्त ने कब मौका दिया है हमें। ✨🥀📜", cat: "all" },
+    { text: "زندگی سے یہی گلہ ہے ہمیں<br>تو بہت دیر سے ملا ہے ہمیں<br>ہم سفر ساتھ تو چلے لیکن<br>وقت نے کب موقع دیا ہے ہمیں ✨🥀📜", cat: "all" },
+
+    { text: "Mohabbat mein koi shart nahi hoti,<br>Har kisi ki kismat mein ye nemat nahi hoti.<br>Humne toh tumhein bin maange hi paa liya thha,<br>Par shayad hamari chahat mein koi barkat nahi hoti. ❤️🤲🥀", cat: "all" },
+    { text: "मोहब्बत में कोई शर्त नहीं होती,<br>हर किसी की किस्मत में ये नेमत नहीं होती।<br>हमने तो तुम्हें बिन मांगे ही पा लिया था,<br>पर शायद हमारी चाहत में कोई बरकत नहीं होती। ❤️🤲🥀", cat: "all" },
+    { text: "محبت میں کوئی شرط نہیں ہوتی<br>ہر کسی کی قسمت میں یہ نعمت نہیں ہوتی<br>ہم نے تو تمہیں بن مانگے ہی پا لیا تھا<br>پر شاید ہماری چاہت میں کوئی برکت نہیں ہوتی ❤️🤲🥀", cat: "all" },
+
+    { text: "Waqt aane do jawab bhi denge aur hisab bhi lenge,<br>Abhi toh bas khel shuru hua hai, pura maidan bhi lenge. 😎🦅🔥", cat: "attitude" },
+    { text: "Hamari khamoshi ko hamari kamzori mat samajhna,<br>Hum wahan khade hote hain jahan log rasta bhool jate hain. 👑🔥✨", cat: "attitude" },
+
+    { text: "Ab toh akelepan se dosti ho gayi hai,<br>Ab mehfilon ki zarurat nahi rahi. 💔🌑🥀", cat: "sad" },
+    { text: "Jinhe humne apna samjha, unhone hi sikhaya,<br>Ki is duniya mein koi apna nahi hota. 💔🥀🍂", cat: "sad" },
   
   
     ];
