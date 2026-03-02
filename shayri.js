@@ -779,6 +779,64 @@ const database = [
 
     { text: "Ab toh akelepan se dosti ho gayi hai,<br>Ab mehfilon ki zarurat nahi rahi. 💔🌑🥀", cat: "sad" },
     { text: "Jinhe humne apna samjha, unhone hi sikhaya,<br>Ki is duniya mein koi apna nahi hota. 💔🥀🍂", cat: "sad" },
+      { text: "Khudi ko kar buland itna ke har taqdeer se pehle,<br>Khuda bande se khud pooche bata teri raza kya hai. 🦁✨🦅", cat: "all" },
+    { text: "खुदी को कर बुलंद इतना कि हर तक़दीर से पहले,<br>ख़ुदा बंदे से खुद पूछे बता तेरी रज़ा क्या है। 🦁✨🦅", cat: "all" },
+    { text: "خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے<br>خدا بندے سے خود پوچھے بتا تیری رضا کیا ہے 🦁✨🦅", cat: "all" },
+
+    { text: "Sitaron se aage jahan aur bhi hain,<br>Abhi ishq ke imtihan aur bhi hain.<br>Tu shaheen hai parwaz hai kaam tera,<br>Tere samne aasman aur bhi hain. 🌌🚀🦅", cat: "all" },
+    { text: "सितारों से आगे जहाँ और भी हैं,<br>अभी इश्क़ के इम्तिहाँ और भी हैं।<br>तू शाहीं है परवाज़ है काम तेरा,<br>तेरे सामने आसमाँ और भी हैं। 🌌🚀🦅", cat: "all" },
+    { text: "ستاروں سے آگے جہاں اور بھی ہیں<br>ابھی عشق کے امتحان اور بھی ہیں<br>تو شاہیں ہے پرواز ہے کام تیرا<br>تیرے سامنے آسماں اور بھی ہیں 🌌🚀🦅", cat: "all" },
+
+    { text: "Meri himmat ko parakhne ki galti mat karna,<br>Pehle bhi kai tufan ka rukh mod chuka hoon. 😎🔥🚩", cat: "attitude" },
+    { text: "Hum apna rasta khud banate hain,<br>Bheed ka hissa banna hamari fitrat mein nahi. 🦁👑🔥", cat: "attitude" },
+
+    { text: "Mohabbat ki dastan ab khatam hi samjho,<br>Ek mod aisa aaya ke dono juda ho gaye. 💔🥀🍂", cat: "sad" },
+    { text: "Dard ki bhi apni ek ada hai,<br>Sahan karne wale par fida hai. 💔🌑🥀", cat: "sad" },
+
+    { text: "Kitna ajeeb hai ye silsila mohabbat ka,<br>Koi mil kar bichad gaya, koi bichad kar mil gaya. ❤️✨🥀", cat: "love" },
+    { text: "Tumhari ek muskurahat hi kafi hai,<br>Mere har dard ko bhulane ke liye. ❤️🌸✨", cat: "love" },
+      { text: "Na hamsafar na kisi humnasheen se nikle ga,<br>Hamare paon ka kanta hami se nikle ga. ✨🚶‍♂️🌵", cat: "all" },
+    { text: "ना हमसफ़र ना किसी हमनशीं से निकलेगा,<br>हमारे पाँव का काँटा हमीं से निकलेगा। ✨🚶‍♂️🌵", cat: "all" },
+    { text: "نہ ہمسفر نہ کسی ہمنشیں سے نکلے گا<br>ہمارے پاؤں کا کانٹا ہمیں سے نکلے گا ✨🚶‍♂️🌵", cat: "all" },
+
+    { text: "Dil se teri nigaah jigar tak utar gayi,<br>Dono ko ek adaa mein raza-mand kar gayi. ❤️✨🎯", cat: "all" },
+    { text: "दिल से तेरी निगाह जिगर तक उतर गई,<br>दोनों को एक अदा में रजामंद कर गई। ❤️✨🎯", cat: "all" },
+    { text: "دل سے تیری نگاہ جگر تک اتر گئی<br>دونوں کو ایک ادا میں رضا مند کر گئی ❤️✨🎯", cat: "all" },
+
+    { text: "Sher khud apni taqat se raja kahlata hai,<br>Jungle mein chunte huye vote nahi hote. 🦁👑🔥", cat: "attitude" },
+    { text: "Hamari sharafat ka fayda uthana band kar do,<br>Jis din hum badmash ho gaye, qayamat aa jayegi. 😎🔥🧨", cat: "attitude" },
+
+    { text: "Kanch jaise hote hain hum jaise tute huye log,<br>Kabhi chubh jate hain toh kabhi chamak jate hain. 💔✨💎", cat: "sad" },
+    { text: "Ab kiske liye royein is sheher-e-khamoshan mein,<br>Sabne apne apne chehre par mukhote pehen rakhe hain. 💔🎭🌑", cat: "sad" },
+
+    { text: "Suno... tum meri woh khwahish ho,<br>Jo main har dua mein mangta hoon. ❤️🤲✨", cat: "love" },
+    { text: "Bas ek tera sath chahiye,<br>Zindagi bitane ke liye nahi, balki har pal jine ke liye. ❤️🌸🌹", cat: "love" },
+
+    { text: "Zindagi ki asli udaan abhi baaki hai,<br>Zindagi ke kai imtihan abhi baaki hain. 🚀🔥🎯", cat: "all" },
+    { text: "ज़िन्दगी की असली उड़ान अभी बाकी है,<br>ज़िन्दगी के कई इम्तिहान अभी बाकी हैं। 🚀🔥🎯", cat: "all" },
+    { text: "زندگی کی اصلی اڑان ابھی باقی ہے<br>زندگی کے کئی امتحان ابھی باقی ہیں 🚀🔥🎯", cat: "all" },
+      { text: "Duniya ki bheed mein khud ko na khona,<br>Mushkil ho rasta toh bhi peeche na hona. 🚀🔥✨", cat: "all" },
+    { text: "दुनिया की भीड़ में खुद को न खोना,<br>मुश्किल हो रास्ता तो भी पीछे न होना। 🚀🔥✨", cat: "all" },
+    { text: "دنیا کی بھیڑ میں خود کو نہ کھونا<br>مشکل ہو راستہ تو بھی پیچھے نہ ہونا 🚀🔥✨", cat: "all" },
+
+    { text: "Manzil milegi, bhatak kar hi sahi,<br>Gumrah toh woh hain jo ghar se nikle hi nahi. ✨🚶‍♂️🎯", cat: "all" },
+    { text: "मंजिल मिलेगी, भटक कर ही सही,<br>गुमराह तो वो हैं जो घर से निकले ही नहीं। ✨🚶‍♂️🎯", cat: "all" },
+    { text: "منزل ملے گی بھٹک کر ہی سہی<br>گمراہ تو وہ ہیں جو گھر سے نکلے ہی نہیں ✨🚶‍♂️🎯", cat: "all" },
+
+    { text: "Hum kismat ke bharose nahi baithte,<br>Hum apni kismat khud likhne ka dum rakhte hain. 😎🔥👑", cat: "attitude" },
+    { text: "Zulm ke khilaf meri awaaz hi kafi hai,<br>Dushmanon ke liye mera naam hi kafi hai. 🐯🔥💥", cat: "attitude" },
+
+    { text: "Waqt sabka badalta hai,<br>Aaj tumhara hai, kal mera hoga. ⏳🔥👊", cat: "attitude" },
+
+    { text: "Udaas kar deti hai har roz ye sham mujhe,<br>Lagta hai bhul raha hai koi dheere dheere mujhe. 💔🌑🥀", cat: "sad" },
+    { text: "Humne toh ek hi shakhs par mohabbat khatam kar di,<br>Ab mohabbat kisi se ho, ye mumkin nahi raha. 💔🍂🥀", cat: "sad" },
+
+    { text: "Zindagi mein bas tera sath chahiye,<br>Hathon mein tera hath chahiye. ❤️🌸✨", cat: "love" },
+    { text: "Ek baar dekh lo mohabbat se,<br>Sari duniya bhula denge hum. ❤️🌹✨", cat: "love" },
+
+    { text: "Nazar nazaara mangti hai, dil dildaar mangta hai,<br>Har kisi ki apni pasand hai, koi sukoon toh koi pyar mangta hai. ✨❤️🍃", cat: "all" },
+    { text: "नज़र नज़ारा माँगती है, दिल दिलदार माँगता है,<br>हर किसी की अपनी पसंद है, कोई सुकून तो कोई प्यार माँगता है। ✨❤️🍃", cat: "all" },
+    { text: "نظر نظارہ مانگتی ہے، دل دلدار مانگتا ہے<br>ہر کسی کی اپنی پسند ہے، کوئی سکون تو کوئی پیار مانگتا ہے ✨❤️🍃", cat: "all" },
   
   
     ];
