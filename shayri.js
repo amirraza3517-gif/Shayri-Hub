@@ -986,6 +986,44 @@ const database = [
     { text: "Woh jo hum mein tum mein qarar thha tumhein yaad ho ke na yaad ho,<br>Wahi waada yani nibah ka tumhein yaad ho ke na yaad ho.<br>Kabhi hum mein tum mein bhi chah thhi kabhi hum se tum se bhi rah thhi,<br>Kabhi hum bhi tum bhi thhe aashna tumhein yaad ho ke na yaad ho. ❤️✨🌹", cat: "love" },
     { text: "वो जो हम में तुम में क़रार था तुम्हें याद हो कि न याद हो,<br>वही वादा यानी निबाह का तुम्हें याद हो कि न याद हो।<br>कभी हम में तुम में भी चाह थी कभी हम से तुम से भी राह थी,<br>कभी हम भी तुम भी थे आशना तुम्हें याद हो कि न याद हो। ❤️✨🌹", cat: "love" },
     { text: "وہ جو ہم میں tum میں قرار تھا تمہیں یاد ہو کہ نہ یاد ہو<br>وہی وعدہ یعنی نباہ کا تمہیں یاد ہو کہ نہ یاد ہو<br>کبھی ہم میں تم میں بھی چاہ تھی کبھی ہم سے تم سے بھی راہ تھی<br>کبھی ہم بھی تم بھی تھے آشنا تمہیں یاد ہو کہ نہ یاد ہو ❤️✨🌹", cat: "love" },
+      { text: "Main us ke hath se sadiyon ki pyas pee aaya,<br>Main us ki aankh ke darya se bach ke jee aaya.<br>Pata chala hai ke wo mujh ko bhool baitha hai,<br>Yaqeen maniye main aaj mar ke jee aaya. ❤️🌊📜", cat: "love" },
+    { text: "मैं उस के हाथ से सदियों की प्यास पी आया,<br>मैं उस की आँख के दरिया से बच के जी आया।<br>पता चला है कि वो मुझ को भूल बैठा है,<br>यकीन मानिए मैं आज मर के जी आया। ❤️🌊📜", cat: "love" },
+    { text: "میں اس کے ہاتھ سے صدیوں کی پیاس پی آیا<br>میں اس کی آنکھ کے دریا سے بچ کے جی آیا<br>پتا چلا ہے کہ وہ مجھ کو بھول بیٹھا ہے<br>یقین مانیے میں آج مر کے جی آیا ❤️🌊📜", cat: "love" },
+
+    { text: "Mere khilaf kahan tak jayegi ye duniya,<br>Mujhe mita ke mera hi nishan mangegi.<br>Main janta hoon ke buzdil hai meri maut magar,<br>Ye mere qatl ka mujh se hi dhyan mangegi. 😎🔥🦁", cat: "attitude" },
+    { text: "मेरे खिलाफ कहाँ तक जाएगी ये दुनिया,<br>मुझे मिटा के मेरा ही निशान माँगेगी।<br>मैं जानता हूँ कि बुज़दिल है मेरी मौत मगर,<br>ये मेरे क़त्ल का मुझ से ही ध्यान माँगेगी। 😎🔥🦁", cat: "attitude" },
+    { text: "میرے خلاف کہاں تک جائے گی یہ دنیا<br>مجھے مٹا کے میرا ہی نشان مانگے گی<br>میں جانتا ہوں کہ بزدل ہے میری موت مگر<br>یہ میرے قتل کا مجھ سے ہی دھیان مانگے گی 😎🔥🦁", cat: "attitude" },
+
+    { text: "Bas ek shaksh ne kheencha tha dukh ki chadar ko,<br>Phir us ke baad pura shehar kaanpne laga.<br>Zareem hum ne toh maut ko bhi hansa diya thha,<br>Magar wo dekh kar humein rone laga. 🥀🏚️❄️", cat: "sad" },
+    { text: "बस एक शख्स ने खींचा था दुःख की चादर को,<br>फिर उस के बाद पूरा शहर काँपने लगा।<br>ज़रीम हम ने तो मौत को भी हँसा दिया था,<br>मगर वो देख कर हमें रोने लगा। 🥀🏚️❄️", cat: "sad" },
+    { text: "بس ایک شخص نے کھینچا تھا دکھ کی چادر کو<br>پھر اس کے بعد پورا شہر کانپنے لگا<br>ذریم ہم نے تو موت کو بھی ہنسا دیا تھا<br>مگر وہ دیکھ کر ہمیں رونے لگا 🥀🏚️❄️", cat: "sad" },
+
+    { text: "Abhi toh dhoop mein jalna hai aur bhi hum ko,<br>Abhi toh raste mein thak ke baithna mana hai.<br>Zareem abhi toh sabaq seekhna hai dunya se,<br>Abhi toh haar ke thak ke baithna mana hai. ☀️🚶‍♂️🏔️", cat: "all" },
+    { text: "अभी तो धूप में जलना है और भी हम को,<br>अभी तो रस्ते में थक के बैठना मना है।<br>ज़रीम अभी तो सबक़ सीखना है दुनिया से,<br>अभी तो हार के थक के बैठना मना है। ☀️🚶‍♂️🏔️", cat: "all" },
+    { text: "ابھی تو دھوپ میں جلنا ہے اور بھی ہم کو<br>ابھی تو رستے میں تھک کے بیٹھنا منع ہے<br>ذریم ابھی تو سبق سیکھنا ہے دنیا سے<br>ابھی تو ہار کے تھک کے بیٹھنا منع ہے ☀️🚶‍♂️🏔️", cat: "all" },
+
+    { text: "Udaas shaam hai aur dard ka basera hai,<br>Tujhe khabar hi nahi ye naseeb tera hai.<br>Main tujh ko yaad karoon aur tu bhool jaye mujhe,<br>Ye munsafi nahi Zareem ye andhera hai. 🌙🥀🕯️", cat: "sad" },
+    { text: "उदास शाम है और दर्द का बसेरा है,<br>तुझे खबर ही नहीं ये नसीब तेरा है।<br>मैं तुझ को याद करूँ और तू भूल जाये मुझे,<br>ये मुंसफी नहीं ज़रीम ये अँधेरा है। 🌙🥀🕯️", cat: "sad" },
+    { text: "اداس شام ہے اور درد کا بسرا ہے<br>تجھے خبر ہی نہیں یہ نصیب تیرا ہے<br>میں تجھ کو یاد کروں اور تو بھول جائے مجھے<br>یہ منصفی نہیں ذریم یہ اندھیرا ہے 🌙🥀🕯️", cat: "sad" },
+      { text: "Khamosh lab hain magar aankh bolti hai meri,<br>Ye dastan-e-alam khud hi kholti hai meri.<br>Zareem hum ne toh har dukh ko dil mein hi rakha,<br>Magar ye dunya humein dhoop mein tolti hai meri. 🥀👁️📜", cat: "sad" },
+    { text: "खामोश लब हैं मगर आँख बोलती है मेरी,<br>ये दास्तान-ए-अल्म खुद ही खोलती है मेरी।<br>ज़रीम हम ने तो हर दुःख को दिल में ही रखा,<br>मगर ये दुनिया हमें धूप में तोलती है मेरी। 🥀👁️📜", cat: "sad" },
+    { text: "خاموش لب ہیں مگر آنکھ بولتی ہے میری<br>یہ داستانِ الم خود ہی کھولتی ہے میری<br>ذریم ہم نے تو ہر دکھ کو دل میں ہی رکھا<br>مگر یہ دنیا ہمیں دھوپ میں تولتی ہے میری 🥀👁️📜", cat: "sad" },
+
+    { text: "Main wo parinda hoon jo qafas se nahi darta,<br>Main wo musafir hoon jo thakan se nahi darta.<br>Zareem us ne toh raste mein kaante bichha diye,<br>Magar main wo hoon jo zakhmon se nahi darta. 😎🔥🦅", cat: "attitude" },
+    { text: "मैं वो परिंदा हूँ जो क़फ़स से नहीं डरता,<br>मैं वो मुसाफ़िर हूँ जो थकान से नहीं डरता।<br>ज़रीम उस ने तो रस्ते में काँटे बिछा दिए,<br>मगर मैं वो हूँ जो ज़ख्मों से नहीं डरता। 😎🔥🦅", cat: "attitude" },
+    { text: "میں وہ پرندہ ہوں جو قفس سے نہیں ڈرتا<br>میں وہ مسافر ہوں جو تھکان سے نہیں ڈرتا<br>ذریم اس نے تو رستے میں کانٹے بچھا دیے<br>مگر میں وہ ہوں جو زخموں سے نہیں ڈرتا 😎🔥🦅", cat: "attitude" },
+
+    { text: "Sitaron se aage bhi raaste hain bohot,<br>Magar humare liye toh faasle hain bohot.<br>Zareem hum ne toh us ko paa kar bhi kho diya,<br>Ab is zindagi mein pachtave hain bohot. 🌌💔🕰️", cat: "all" },
+    { text: "सितारों से आगे भी रास्ते हैं बहुत,<br>मगर हमारे लिए तो फ़ासले हैं बहुत।<br>ज़रीम हम ने तो उस को पा कर भी खो दिया,<br>अब इस ज़िन्दगी में पछतावे हैं बहुत। 🌌💔🕰️", cat: "all" },
+    { text: "ستاروں سے آگے بھی راستے ہیں بہت<br>مگر ہمارے لئے تو فاصلے ہیں بہت<br>ذریم ہم نے تو اس کو پا کر بھی کھو دیا<br>اب اس زندگی میں پچھتاوے ہیں بہت 🌌💔🕰️", cat: "all" },
+
+    { text: "Tumhari yaad ka suraj nikalta aata hai,<br>Mere wajood ki barf ko pighalta aata hai.<br>Zareem hum ne toh koshish bohot ki bhulane ki,<br>Magar ye dard har ek pal badalta aata hai. ☀️❄️💔", cat: "love" },
+    { text: "तुम्हारी याद का सूरज निकलता आता है,<br>मेरे वजूद की बर्फ को पिघलता आता है।<br>ज़रीम हम ने तो कोशिश बहुत की भुलाने की,<br>मगर ये दर्द हर एक पल बदलता आता है। ☀️❄️💔", cat: "love" },
+    { text: "تمہاری یاد کا سورج نکلتا آتا ہے<br>میرے وجود کی برف کو پگھلتا آتا ہے<br>ذریم ہم نے تو کوشش بہت کی بھلانے کی<br>مگر یہ درد ہر ایک پل بدلتا آتا ہے ☀️❄️💔", cat: "love" },
+
+    { text: "Main apne hath ki lakeeron se ladta rehta hoon,<br>Har ek mod par khud se hi jhagarta rehta hoon.<br>Zareem us ne toh rasta hi badal liya apna,<br>Magar main us ke nishaan par chalta rehta hoon. 🚶‍♂️🛤️🥀", cat: "all" },
+    { text: "मैं अपने हाथ की लकीरों से लड़ता रहता हूँ,<br>हर एक मोड़ पर खुद से ही झगड़ता रहता हूँ।<br>ज़रीम उस ने तो रस्ता ही बदल लिया अपना,<br>मगर मैं उस के निशान पर चलता रहता हूँ। 🚶‍♂️🛤️🥀", cat: "all" },
+    { text: "میں اپنے ہاتھ کی لکیروں سے لڑتا رہتا ہوں<br>ہر ایک موڑ پر خود سے ہی جھگڑتا رہتا ہوں<br>ذریم اس نے تو رستہ ہی بدل لیا اپنا<br>مگر میں اس کے نشان پر چلتا رہتا ہوں 🚶‍♂️🛤️🥀", cat: "all" },
   
   
     ];
