@@ -837,6 +837,98 @@ const database = [
     { text: "Nazar nazaara mangti hai, dil dildaar mangta hai,<br>Har kisi ki apni pasand hai, koi sukoon toh koi pyar mangta hai. ✨❤️🍃", cat: "all" },
     { text: "नज़र नज़ारा माँगती है, दिल दिलदार माँगता है,<br>हर किसी की अपनी पसंद है, कोई सुकून तो कोई प्यार माँगता है। ✨❤️🍃", cat: "all" },
     { text: "نظر نظارہ مانگتی ہے، دل دلدار مانگتا ہے<br>ہر کسی کی اپنی پسند ہے، کوئی سکون تو کوئی پیار مانگتا ہے ✨❤️🍃", cat: "all" },
+      { text: "Hazaaron khwahishein aisi ke har khwahish pe dum nikle,<br>Bohot nikle mere armaan lekin phir bhi kam nikle.<br>Nikalna khuld se aadam ka sunte aaye hain lekin,<br>Bohot be-abru hokar tere kooche se hum nikle. ✨🏛️📜", cat: "all" },
+    { text: "हज़ारों ख्वाहिशें ऐसी कि हर ख्वाहिश पे दम निकले,<br>बहुत निकले मेरे अरमान लेकिन फिर भी कम निकले।<br>निकलना खुल्द से आदम का सुनते आए हैं लेकिन,<br>बहुत बे-आबरू होकर तेरे कूचे से हम निकले। ✨🏛️📜", cat: "all" },
+    { text: "ہزاروں خواہشیں ایسی کہ ہر خواہش پہ دم نکلے<br>بہت نکلے میرے ارمان لیکن پھر بھی کم نکلے<br>نکلنا خلد سے آدم کا سنتے آئے ہیں لیکن<br>بہت بے آبرو ہو کر تیرے کوچے سے ہم نکلے ✨🏛️📜", cat: "all" },
+
+    { text: "Dekh toh dil ke jaan se uthta hai,<br>Ye dhuan kahan se uthta hai.<br>Gor kis dil jale ki hai ye falak,<br>Shola ek is makaan se uthta hai. 🥀🔥🌑", cat: "all" },
+    { text: "देख तो दिल के जाँ से उठता है,<br>ये धुआँ कहाँ से उठता है।<br>गोर किस दिल जले की है ये फ़लक,<br>शोला एक इस मकान से उठता है। 🥀🔥🌑", cat: "all" },
+    { text: "دیکھ تو دل کہ جاں سے اٹھتا ہے<br>یہ دھواں کہاں سے اٹھتا ہے<br>گور کس دل جلے کی ہے یہ فلک<br>شعلہ ایک اس مکاں سے اٹھتا ہے 🥀🔥🌑", cat: "all" },
+
+    { text: "Lagta nahi hai dil mera ujde dayar mein,<br>Kiski bani hai aalam-e-na-payedar mein.<br>Kitna hai bad-naseeb 'Zafar' dafn ke liye,<br>Do gaz zameen bhi na mili koo-e-yaar mein. 🏚️🥀📜", cat: "all" },
+    { text: "लगता नहीं है दिल मेरा उजड़े दयार में,<br>किसकी बनी है आलम-ए-ना-पायदार में।<br>कितना है बद-नसीब 'ज़फ़र' दफ़्न के लिए,<br>दो गज़ ज़मीन भी न मिली कू-ए-यार में। 🏚️🥀📜", cat: "all" },
+    { text: "لگتا نہیں ہے دل میرا اجڑے دیار میں<br>کس کی بنی ہے عالمِ نا پائیدار میں<br>کتنا ہے بدنصیب ظفر دفن کے لئے<br>دو گز زمین بھی نہ ملی کوئے یار میں 🏚️🥀📜", cat: "all" },
+
+    { text: "Sitaron se aage jahan aur bhi hain,<br>Abhi ishq ke imtihan aur bhi hain.<br>Isi roz-o-shab mein ulajh kar na reh ja,<br>Ke tere zaman-o-makan aur bhi hain. 🌌🚀🦅", cat: "all" },
+    { text: "सितारों से आगे जहाँ और भी हैं,<br>अभी इश्क़ के इम्तिहाँ और भी हैं।<br>इसी रोज़-ओ-शब में उलझ कर न रह जा,<br>कि तेरे ज़मान-ओ-मक़ान और भी हैं। 🌌🚀🦅", cat: "all" },
+    { text: "ستاروں سے آگے جہاں اور بھی ہیں<br>ابھی عشق کے امتحان اور بھی ہیں<br>اسی روز و شب میں الجھ کر نہ رہ جا<br>کہ تیرے زمان و مکاں اور بھی ہیں 🌌🚀🦅", cat: "all" },
+
+    { text: "Hum ko mita sake ye zamane mein dam nahi,<br>Hum se zamana khud hai, zamane se hum nahi. 😎🔥🦁", cat: "attitude" },
+
+    { text: "Dard minnat-kash-e-dawa na hua,<br>Main na accha hua, bura na hua. 💔🥀🍂", cat: "sad" },
+      { text: "Ranjish hi sahi dil hi dukhane ke liye aa,<br>Aa phir se mujhe chhod ke jaane ke liye aa.<br>Pehle se marasim na sahi phir bhi kabhi toh,<br>Rasm-o-rah-e-duniya hi nibhane ke liye aa. 🥀📜✨", cat: "all" },
+    { text: "रंजिश ही सही दिल ही दुखाने के लिए आ,<br>आ फिर से मुझे छोड़ के जाने के लिए आ।<br>पहले से मरासिम न सही फिर भी कभी तो,<br>रस्म-ओ-राह-ए-दुनिया ही निभाने के लिए आ। 🥀📜✨", cat: "all" },
+    { text: "رنجش ہی سہی دل ہی دکھانے کے لئے آ<br>آ پھر سے مجھے چھوڑ کے جانے کے لئے آ<br>پہلے سے مراسم نہ سہی پھر بھی کبھی تو<br>رسم و راہِ دنیا ہی نبھانے کے لئے آ 🥀📜✨", cat: "all" },
+
+    { text: "Duniya ke sitam yaad na apni hi wafa yaad,<br>Ab mujhko nahi kuch bhi tere pyar ke siwa yaad.<br>Jab koi haseen mukhda nazar aata hai mujhko,<br>Aa jati hai ek bhuli hui dastan-e-wafa yaad. ✨❤️📜", cat: "all" },
+    { text: "दुनिया के सितम याद न अपनी ही वफ़ा याद,<br>अब मुझको नहीं कुछ भी तेरे प्यार के सिवा याद।<br>जब कोई हसीं मुखड़ा नज़र आता है मुझको,<br>आ जाती है एक भूली हुई दास्तान-ए-वफ़ा याद। ✨❤️📜", cat: "all" },
+    { text: "دنیا کے ستم یاد نہ اپنی ہی وفا یاد<br>اب مجھ کو نہیں کچھ بھی تیرے پیار کے سوا یاد<br>جب کوئی حسیں مکھڑا نظر آتا ہے مجھ کو<br>آ جاتی ہے ایک بھولی ہوئی داستانِ وفا یاد ✨❤️📜", cat: "all" },
+
+    { text: "Zindagi se yahi gila hai humein,<br>Tu bohot dair se mila hai humein.<br>Humsafar saath toh chale lekin,<br>Waqt ne kab mauka diya hai humein. ⏳🚶‍♂️🥀", cat: "all" },
+    { text: "ज़िन्दगी से यही गिला है हमें,<br>तू बहुत देर से मिला है हमें।<br>हमसफ़र साथ तो चले लेकिन,<br>वक़्त ने कब मौका दिया है हमें। ⏳🚶‍♂️🥀", cat: "all" },
+    { text: "زندگی سے یہی گلہ ہے ہمیں<br>تو بہت دیر سے ملا ہے ہمیں<br>ہم سفر ساتھ تو چلے لیکن<br>وقت نے کب موقع دیا ہے ہمیں ⏳🚶‍♂️🥀", cat: "all" },
+
+    { text: "Wo humsafar thha magar us se humnawai na thhi,<br>Ke dhoop chhaon ka aalam raha judai na thhi. 💔🌑✨", cat: "sad" },
+    { text: "Duniya ne tajurbaat-o-hawadis ki shakal mein,<br>Jo kuch mujhe diya hai wo lauta raha hoon main. 🦁🔥📜", cat: "attitude" },
+
+    { text: "Mohabbat mein nahi hai farq jeene aur marne ka,<br>Usi ko dekh kar jeete hain jis kaafir pe dum nikle. ❤️✨🥀", cat: "love" },
+      { text: "Dil se jo baat nikalti hai asar rakhti hai,<br>Par nahin taqat-e-parwaaz magar rakhti hai.<br>Qudsi-ul-asal hai rifat pe nazar rakhti hai,<br>Khak se uthti hai gardoon pe guzar rakhti hai. ✨🦅📜", cat: "all" },
+    { text: "दिल से जो बात निकलती है असर रखती है,<br>पर नहीं ताक़त-ए-परवाज़ मगर रखती है।<br>कुदसी-उल-असल है रफ़अत पे नज़र रखती है,<br>ख़ाक से उठती है गर्दूँ पे गुज़र रखती है। ✨🦅📜", cat: "all" },
+    { text: "دل سے جو بات نکلتی ہے اثر رکھتی ہے<br>پر نہیں طاقتِ پرواز مگر رکھتی ہے<br>قدسی الاصل ہے رفعت پہ نظر رکھتی ہے<br>خاک سے اٹھتی ہے گردوں پہ گزر رکھتی ہے ✨🦅📜", cat: "all" },
+
+    { text: "Zindagi hai ya koi toofan hai,<br>Hum toh is jeene ke hathon mar chale.<br>Kya kismat thi hamari ke hum se,<br>Roshni ke naam par suraj dhal chale. 🥀🌑📜", cat: "all" },
+    { text: "ज़िन्दगी है या कोई तूफ़ान है,<br>हम तो इस जीने के हाथों मर चले।<br>क्या किस्मत थी हमारी कि हम से,<br>रोशनी के नाम पर सूरज ढल चले। 🥀🌑📜", cat: "all" },
+    { text: "زندگی ہے یا کوئی طوفان ہے<br>ہم تو اس جینے کے ہاتھوں مر چلے<br>کیا قسمت تھی ہماری کہ ہم سے<br>روشنی کے نام پر سورج ڈھل چلے 🥀🌑📜", cat: "all" },
+
+    { text: "Woh jo hum mein tum mein qarar tha tumhein yaad ho ke na yaad ho,<br>Wahi waada yani nibah ka tumhein yaad ho ke na yaad ho.<br>Kabhi hum mein tum mein bhi chah thi kabhi hum se tum se bhi rah thi,<br>Kabhi hum bhi tum bhi the aashna tumhein yaad ho ke na yaad ho. ✨❤️🕰️", cat: "all" },
+    { text: "वो जो हम में तुम में क़रार था तुम्हें याद हो कि न याद हो,<br>वही वादा यानी निबाह का तुम्हें याद हो कि न याद हो।<br>कभी हम में तुम में भी चाह थी कभी हम से तुम से भी राह थी,<br>कभी हम भी तुम भी थे आशना तुम्हें याद हो कि न याद हो। ✨❤️🕰️", cat: "all" },
+    { text: "وہ جو ہم میں تم میں قرار تھا تمہیں یاد ہو کہ نہ یاد ہو<br>وہی وعدہ یعنی نباہ کا تمہیں یاد ہو کہ نہ یاد ہو<br>کبھی ہم میں تم میں بھی چاہ تھی کبھی ہم سے تم سے بھی راہ تھی<br>کبھی ہم بھی تم بھی تھے آشنا تمہیں یاد ہو کہ نہ یاد ہو ✨❤️🕰️", cat: "all" },
+
+    { text: "Hasti apni hubaab ki si hai,<br>Ye numayish saraab ki si hai.<br>Naazuki us ke lab ki kya kahiye,<br>Pankhadi ek gulaab ki si hai. 🌸🥀📜", cat: "all" },
+    { text: "हस्ती अपनी हबाब की सी है,<br>ये नुमाइश सराब की सी है।<br>नाज़ुकी उस के लब की क्या कहिए,<br>पंखड़ी एक गुलाब की सी है। 🌸🥀📜", cat: "all" },
+    { text: "ہستی اپنی حباب کی سی ہے<br>یہ نمائش سراب کی سی ہے<br>نازکی اس کے لب کی کیا کہئے<br>پنکھڑی ایک گلاب کی سی ہے 🌸🥀📜", cat: "all" },
+
+    { text: "Baazicha-e-atfal hai duniya mere aage,<br>Hota hai shab-o-roz tamasha mere aage. ✨🎭📜", cat: "attitude" },
+
+    { text: "Hum ko mitana har kisi ke bas ki baat nahi,<br>Ye zamana hum se hai, hum zamane se nahi. 😎🔥🦁", cat: "attitude" },
+      { text: "Kab tak dil ki khair manayein, kab tak rah dikhaoge,<br>Kab tak chain ki neend so-oge, kab tak humein rulaoge.<br>Baat niklegi toh phir door talak jayegi,<br>Log bewajah udasi ka sabab puchenge. ✨📜🥀", cat: "all" },
+    { text: "कब तक दिल की खैर मनाएं, कब तक राह दिखाओगे,<br>कब तक चैन की नींद सोओगे, कब तक हमें रुलाओगे।<br>बात निकलेगी तो फिर दूर तलक जाएगी,<br>लोग बेवजह उदासी का सबब पूछेंगे। ✨📜🥀", cat: "all" },
+    { text: "کب تک دل کی خیر منائیں کب تک راہ دکھاؤ گے<br>کب تک چین کی نیند سوؤ گے کب تک ہمیں رلاؤ گے<br>بات نکلے گی تو پھر دور تلک جائے گی<br>لوگ بے وجہ اداسی کا سبب پوچھیں گے ✨📜🥀", cat: "all" },
+
+    { text: "Dil hi toh hai na sang-o-khisht, dard se bhar na aaye kyun,<br>Royenge hum hazaar baar, koi humein sataye kyun.<br>Dair nahi, haram nahi, dar nahi, aastaan nahi,<br>Baithe hain reh-guzar pe hum, ghair humein uthaye kyun. ✨🏛️🥀", cat: "all" },
+    { text: "दिल ही तो है न संग-ओ-खिश्त, दर्द से भर न आए क्यों,<br>रोएंगे हम हज़ार बार, कोई हमें सताए क्यों।<br>दैर नहीं, हरम नहीं, दर नहीं, आस्तां नहीं,<br>बैठे हैं रहगुज़र पे हम, ग़ैर हमें उठाए क्यों। ✨🏛️🥀", cat: "all" },
+    { text: "دل ہی تو ہے نہ سنگ و خشت درد سے بھر نہ آئے کیوں<br>روئیں گے ہم ہزار بار کوئی ہمیں ستائے کیوں<br>دیر نہیں حرم نہیں در نہیں آستاں نہیں<br>بیٹھے ہیں رہگزر پہ ہم غیر ہمیں اٹھائے کیوں ✨🏛️🥀", cat: "all" },
+
+    { text: "Ishq par zor nahi hai ye woh aatish 'Ghalib',<br>Jo lagaye na lage aur bujhaye na bane.<br>Hum ne maana ke tagaful na karoge lekin,<br>Khak ho jayenge hum tum ko khabar hone tak. 🔥❤️📜", cat: "all" },
+    { text: "इश्क़ पर ज़ोर नहीं है ये वो आतिश 'ग़ालिब',<br>जो लगाए न लगे और बुझाए न बने।<br>हम ने माना कि तग़ाफ़ुल न करोगे लेकिन,<br>खाक हो जाएंगे हम तुम को खबर होने तक। 🔥❤️📜", cat: "all" },
+    { text: "عشق پر زور نہیں ہے یہ وہ آتش غالبؔ<br>جو لگائے نہ لگے اور بجھائے نہ بنے<br>ہم نے مانا کہ تغافل نہ کرو گے لیکن<br>خاک ہو جائیں گے ہم تم کو خبر ہونے تک 🔥❤️📜", cat: "all" },
+
+    { text: "Hazaaron saal nargis apni be-noori pe roti hai,<br>Badi mushkil se hota hai chaman mein deeda-war paida. ✨👁️🌸", cat: "all" },
+    { text: "हज़ारों साल नरगिस अपनी बे-नूरी पे रोती है,<br>बड़ी मुश्किल से होता है चमन में दीदा-वर पैदा। ✨👁️🌸", cat: "all" },
+    { text: "ہزاروں سال نرگس اپنی بے نوری پہ روتی ہے<br>بڑی مشکل سے ہوتا ہے چمن میں دیدہ ور پیدا ✨👁️🌸", cat: "all" },
+
+    { text: "Zulmat ko ziya, sarsar ko saba, bande ko khuda kya likhna,<br>Jo nahaq-e-zulm ko haq likhe, us shakhs ko zinda kya likhna. 😎🔥📜", cat: "attitude" },
+
+    { text: "Na tha kuch toh khuda tha, kuch na hota toh khuda hota,<br>Duboya mujhko hone ne, na hota main toh kya hota. 🌌🌑📜", cat: "sad" },
+      { text: "Duniya ke sitam yaad na apni hi wafa yaad,<br>Ab mujhko nahi kuch bhi tere pyar ke siwa yaad.<br>Jab koi haseen mukhda nazar aata hai mujhko,<br>Aa jati hai ek bhuli hui dastan-e-wafa yaad. ✨📜❤️", cat: "love" },
+    { text: "दुनिया के सितम याद न अपनी ही वफ़ा याद,<br>अब मुझको नहीं कुछ भी तेरे प्यार के सिवा याद।<br>जब कोई हसीं मुखड़ा नज़र आता है मुझको,<br>आ जाती है एक भूली हुई दास्तान-ए-वफ़ा याद। ✨📜❤️", cat: "love" },
+    { text: "دنیا کے ستم یاد نہ اپنی ہی وفا یاد<br>اب مجھ کو نہیں کچھ بھی تیرے پیار کے سوا یاد<br>جب کوئی حسیں مکھڑا نظر آتا ہے مجھ کو<br>آ جاتی ہے ایک بھولی ہوئی داستانِ وفا یاد ✨📜❤️", cat: "love" },
+
+    { text: "Hasti apni hubaab ki si hai,<br>Ye numayish saraab ki si hai.<br>Naazuki us ke lab ki kya kahiye,<br>Pankhadi ek gulaab ki si hai. 🌸🥀📜", cat: "all" },
+    { text: "हस्ती अपनी हबाब की सी है,<br>ये नुमाइश सराब की सी है।<br>नाज़ुकी उस के लब की क्या कहिए,<br>पंखड़ी एक गुलाब की सी है। 🌸🥀📜", cat: "all" },
+    { text: "ہستی اپنی حباب کی سی ہے<br>یہ نمائش سراب کی سی ہے<br>نازکی اس کے لب کی کیا کہئے<br>پنکھڑی ایک گلاب کی سی ہے 🌸🥀📜", cat: "all" },
+
+    { text: "Ghalib bura na maan jo waiz bura kahe,<br>Aisa bhi koi hai ke sab accha kahein jise.<br>Hum ko mita sake ye zamane mein dam nahi,<br>Hum se zamana khud hai, zamane se hum nahi. 😎🔥🦁", cat: "attitude" },
+    { text: "ग़ालिब बुरा न मान जो वाइज़ बुरा कहे,<br>ऐसा भी कोई है कि सब अच्छा कहें जिसे।<br>हम को मिटा सके ये ज़माने में दम नहीं,<br>हम से ज़माना ख़ुद है, ज़माने से हम नहीं। 😎🔥🦁", cat: "attitude" },
+    { text: "غالب برا نہ مان جو واعظ برا کہے<br>ایسا بھی کوئی ہے کہ سب اچھا کہیں جسے<br>ہم کو مٹا سکے یہ زمانے میں دم نہیں<br>ہم سے زمانہ خود ہے زمانے سے ہم نہیں 😎🔥🦁", cat: "attitude" },
+
+    { text: "Ab toh ghabra ke ye kehte hain ke mar jayenge,<br>Mar ke bhi chain na paya toh kidhar jayenge.<br>Zindagi hai ya koi toofan hai,<br>Hum toh is jeene ke hathon mar chale. 🥀🌑🏚️", cat: "sad" },
+    { text: "अब तो घबरा के ये कहते हैं कि मर जाएंगे,<br>मर के भी चैन न पाया तो किधर जाएंगे।<br>ज़िन्दगी है या कोई तूफ़ान है,<br>हम तो इस जीने के हाथों मर चले। 🥀🌑🏚️", cat: "sad" },
+    { text: "اب تو گھبرا کے یہ کہتے ہیں کہ مر جائیں گے<br>مر کے بھی چین نہ پایا تو کدھر جائیں گے<br>زندگی ہے یا کوئی طوفان ہے<br>ہم تو اس جینے کے ہاتھوں مر چلے 🥀🌑🏚️", cat: "sad" },
+
+    { text: "Sitaron se aage jahan aur bhi hain,<br>Abhi ishq ke imtihan aur bhi hain.<br>Tu shaheen hai parwaz hai kaam tera,<br>Tere samne aasman aur bhi hain. 🌌🦅✨", cat: "all" },
+    { text: "सितारों से आगे जहाँ और भी हैं,<br>अभी इश्क़ के इम्तिहाँ और भी हैं।<br>तू शाहीं है परवाज़ है काम तेरा,<br>तेरे सामने आसमाँ और भी हैं। 🌌🦅✨", cat: "all" },
+    { text: "ستاروں سے آگے جہاں اور بھی ہیں<br>ابھی عشق کے امتحان اور بھی ہیں<br>تو شاہیں ہے پرواز ہے کام تیرا<br>تیرے سامنے آسماں اور بھی ہیں 🌌🦅✨", cat: "all" },
   
   
     ];
