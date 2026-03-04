@@ -1024,7 +1024,78 @@ const database = [
     { text: "Main apne hath ki lakeeron se ladta rehta hoon,<br>Har ek mod par khud se hi jhagarta rehta hoon.<br>Zareem us ne toh rasta hi badal liya apna,<br>Magar main us ke nishaan par chalta rehta hoon. 🚶‍♂️🛤️🥀", cat: "all" },
     { text: "मैं अपने हाथ की लकीरों से लड़ता रहता हूँ,<br>हर एक मोड़ पर खुद से ही झगड़ता रहता हूँ।<br>ज़रीम उस ने तो रस्ता ही बदल लिया अपना,<br>मगर मैं उस के निशान पर चलता रहता हूँ। 🚶‍♂️🛤️🥀", cat: "all" },
     { text: "میں اپنے ہاتھ کی لکیروں سے لڑتا رہتا ہوں<br>ہر ایک موڑ پر خود سے ہی جھگڑتا رہتا ہوں<br>ذریم اس نے تو رستہ ہی بدل لیا اپنا<br>مگر میں اس کے نشان پر چلتا رہتا ہوں 🚶‍♂️🛤️🥀", cat: "all" },
-  
+      { text: "Zindagi mein agar kuch hasil karna ho,<br>Toh apne tareeke badlo, irade nahi.<br>Kyunki kamyabi mehnat se milti hai,<br>Sirf baaton se nahi. 💪🔥🚀", cat: "all" },
+    { text: "ज़िंदगी में अगर कुछ हासिल करना हो,<br>तो अपने तरीके बदलो, इरादे नहीं।<br>क्योंकि कामयाबी मेहनत से मिलती है,<br>सिर्फ बातों से नहीं। 💪🔥🚀", cat: "all" },
+    { text: "زندگی میں اگر کچھ حاصل کرنا ہو،<br>تو اپنے طریقے بدلو، ارادے نہیں۔<br>کیونکہ کامیابی محنت سے ملتی ہے،<br>صرف باتوں سے نہیں۔ 💪🔥🚀", cat: "all" },
+
+    { text: "Manzil unhi ko milti hai,<br>Jinke sapno mein jaan hoti hai.<br>Pankh se kuch nahi hota,<br>Hauslon se udaan hoti hai. ✨🦅🎯", cat: "all" },
+    { text: "मंजिल उन्हीं को मिलती है,<br>जिनके सपनों में जान होती है।<br>पंख से कुछ नहीं होता,<br>हौसलों से उड़ान होती है। ✨🦅🎯", cat: "all" },
+    { text: "منزل انہیں کو ملتی ہے،<br>جن کے سپنوں میں جان ہوتی ہے۔<br>پنکھ سے کچھ نہیں ہوتا،<br>حوصلوں سے اڑان ہوتی ہے۔ ✨🦅🎯", cat: "all" },
+
+    { text: "Mushkilon se bhag jana asaan hota hai,<br>Har pehlu zindagi ka imtihan hota hai.<br>Ladne walon ke kadmon mein jahan hota hai. 🦁🌍🛡️", cat: "all" },
+    { text: "मुश्किलों से भाग जाना आसान होता है,<br>हर पहलू ज़िन्दगी का इम्तिहान होता है।<br>लड़ने वालों के कदमों में जहाँ होता है। 🦁🌍🛡️", cat: "all" },
+    { text: "مشکلوں سے بھاگ جانا آسان ہوتا ہے،<br>ہر پہلو زندگی کا امتحان ہوتا ہے۔<br>لڑنے والوں کے قدموں میں جہاں ہوتا ہے۔ 🦁🌍🛡️", cat: "all" },
+      { text: "Tumhari ek muskurahat hi kafi hai,<br>Mere dil ke sukoon ke liye.<br>Tum se door rehna mushkil hai,<br>Tumhare paas aane ke liye. ❤️✨🌹", cat: "love" },
+    { text: "तुम्हारी एक मुस्कुराहट ही काफी है,<br>मेरे दिल के सुकून के लिए।<br>तुम से दूर रहना मुश्किल है,<br>तुम्हारे पास आने के लिए। ❤️✨🌹", cat: "love" },
+    { text: "تمہاری ایک مسکراہٹ ہی کافی ہے،<br>میرے دل کے سکون کے لیے۔<br>تم سے دور رہنا مشکل ہے،<br>تمہارے پاس آنے کے لیے۔ ❤️✨🌹", cat: "love" },
+          { text: "Dil se badi koi qabrastan nahi,<br>Har roz yahan koi na koi ehsaas dafan hota hai.<br>Muskurana seekh liya hai humne,<br>Kyunki rone se koi wapas nahi aata. 💔🥀🌧️", cat: "sad" },
+    { text: "दिल से बड़ी कोई कब्रिस्तान नहीं,<br>हर रोज़ यहाँ कोई ना कोई एहसास दफ़न होता है।<br>मुस्कुराना सीख लिया है हमने,<br>क्योंकि रोने से कोई वापस नहीं आता। 💔🥀🌧️", cat: "sad" },
+    { text: "دل سے بڑی کوئی قبرستان نہیں،<br>ہر روز یہاں کوئی نہ کوئی احساس دفن ہوتا ہے۔<br>مسکرانا سیکھ لیا ہے ہم نے،<br>کیونکہ رونے سے کوئی واپس نہیں آتا۔ 💔🥀🌧️", cat: "sad" },
+      { text: "Sher khud apni takat se raja kehlata hai,<br>Jungle mein chunav nahi hote.<br>Humara andaz thoda alag hai,<br>Hum dushman ko bhi izzat dete hain. 😎🔥🦁", cat: "attitude" },
+    { text: "शेर खुद अपनी ताकत से राजा कहलाता है,<br>जंगल में चुनाव नहीं होते।<br>हमारा अंदाज़ थोड़ा अलग है,<br>हम दुश्मन को भी इज़्ज़त देते हैं। 😎🔥🦁", cat: "attitude" },
+    { text: "شیر خود اپنی طاقت سے راجہ کہلاتا ہے،<br>جنگل میں چناؤ نہیں ہوتے۔<br>ہمارا انداز تھوڑا الگ ہے،<br>ہم دشمن کو بھی عزت دیتے ہیں۔ 😎🔥🦁", cat: "attitude" },
+      { text: "Tere khayal se hi ek raunaq aa jati hai chehre par,<br>Tujhse milne ka ehsaas bhi kitna sukoon deta hai.<br>Mohabbat tumse hai aur hamesha rahegi,<br>Bas ek baar muskura kar dekh lo hamari taraf. ❤️✨🌹", cat: "romantic" },
+    { text: "तेरे ख्याल से ही एक रौनक आ जाती है चेहरे पर,<br>तुझसे मिलने का एहसास भी कितना सुकून देता है।<br>मोहब्बत तुमसे है और हमेशा रहेगी,<br>बस एक बार मुस्कुरा कर देख लो हमारी तरफ। ❤️✨🌹", cat: "romantic" },
+    { text: "تیرے خیال سے ہی ایک رونق آ جاتی ہے چہرے پر،<br>تجھ سے ملنے کا احساس بھی کتنا سکون دیتا ہے۔<br>محبت تم سے ہے اور ہمیشہ رہے گی،<br>بس ایک بار مسکرا کر دیکھ لو ہماری طرف۔ ❤️✨🌹", cat: "romantic" },
+      { text: "Log kehte hain ki mohabbat ek baar hoti hai,<br>Magar main jab bhi tujhe dekhta hoon,<br>Mujhe har baar mohabbat ho jati hai.<br>Tum mere liye wo tohfa ho jo naseeb se milta hai. ❤️💖🌍", cat: "romantic" },
+    { text: "लोग कहते हैं कि मोहब्बत एक बार होती है,<br>मगर मैं जब भी तुझे देखता हूँ,<br>मुझे हर बार मोहब्बत हो जाती है।<br>तुम मेरे लिए वो तोहफा हो जो नसीब से मिलता है। ❤️💖🌍", cat: "romantic" },
+    { text: "لوگ کہتے ہیں کہ محبت ایک بار ہوتی ہے،<br>مگر میں جب بھی تجھے دیکھتا ہوں،<br>مجھے ہر بار محبت ہو جاتی ہے۔<br>تم میرے لیے وہ تحفہ ہو جو نصیب سے ملتا ہے۔ ❤️💖🌍", cat: "romantic" },
+      { text: "Kitna pyar hai tumse ye kehna nahi aata,<br>Bas itna jaante hain ki bina tumhare rehna nahi aata.<br>Meri har saans mein bas naam tumhara hai,<br>Ab toh ye dil bhi sirf tumhara hai. 💞✨👑", cat: "romantic" },
+    { text: "कितना प्यार है तुमसे ये कहना नहीं आता,<br>बस इतना जानते हैं कि बिना तुम्हारे रहना नहीं आता।<br>मेरी हर सांस में बस नाम तुम्हारा है,<br>अब तो ये दिल भी सिर्फ तुम्हारा है। 💞✨👑", cat: "romantic" },
+    { text: "کتنا پیار ہے تم سے یہ کہنا نہیں آتا،<br>بس اتنا جانتے ہیں کہ بنا تمہارے رہنا نہیں آتا۔<br>میری ہر سانس میں بس نام تمہارا ہے،<br>اب تو یہ دل بھی صرف تمہارا ہے۔ 💞✨👑", cat: "romantic" },
+      { text: "Teri aankhon ke dariya ka utarna bhi zaroori tha,<br>Mohabbat thi toh phir dil ka bikharna bhi zaroori tha.<br>Tumhe chaha toh bas itna hi jana hai,<br>Ki jeene ke liye tera hona zaroori tha. ❤️👀🌊", cat: "romantic" },
+    { text: "तेरी आँखों के दरिया का उतरना भी ज़रूरी था,<br>मोहब्बत थी तो फिर दिल का बिखरना भी ज़रूरी था।<br>तुम्हें चाहा तो बस इतना ही जाना है,<br>कि जीने के लिए तेरा होना ज़रूरी था। ❤️👀🌊", cat: "romantic" },
+    { text: "تیری آنکھوں کے دریا کا اترنا بھی ضروری تھا،<br>محبت تھی تو پھر دل کا بکھرنا بھی ضروری تھا۔<br>تمہیں چاہا تو بس اتنا ہی جانا ہے،<br>کہ جینے کے لیے تیرا ہونا ضروری تھا۔ ❤️👀🌊", cat: "romantic" },
+      { text: "Tumse milne ki tamanna hai dil mein,<br>Tumhare sath jeene ki hasrat hai dil mein. ❤️✨", cat: "romantic" },
+    { text: "तुमसे मिलने की तमन्ना है दिल में,<br>तुम्हारे साथ जीने की हसरत है दिल में। ❤️✨", cat: "romantic" },
+    { text: "تم سے ملنے کی تمنا ہے دل میں،<br>تمہارے ساتھ جینے کی حسرت ہے دل میں۔ ❤️✨", cat: "romantic" },
+
+    { text: "Meri har dhadkan mein tera hi naam hai,<br>Tujhse hi shuru meri har shaam hai. 🌹🌙", cat: "romantic" },
+    { text: "मेरी हर धड़कन में तेरा ही नाम है,<br>तुझसे ही शुरू मेरी हर शाम है। 🌹🌙", cat: "romantic" },
+    { text: "میری ہر دھڑکن میں تیرا ہی نام ہے،<br>تجھ سے ہی شروع میری ہر شام ہے۔ 🌹🌙", cat: "romantic" },
+
+    { text: "Ishq ka nasha kuch alag hi hota hai,<br>Jab mehboob ka sath har waqt hota hai. 💞🍭", cat: "romantic" },
+    { text: "इश्क़ का नशा कुछ अलग ही होता है,<br>जब महबूब का साथ हर वक़्त होता है। 💞🍭", cat: "romantic" },
+    { text: "عشق کا نشہ کچھ الگ ہی ہوتا ہے،<br>جب محبوب کا ساتھ ہر وقت ہوتا ہے۔ 💞🍭", cat: "romantic" },
+
+    { text: "Teri muskurahat par marte hain hum,<br>Tujhe khone se darta hai ye dil hardum. 🥰💓", cat: "romantic" },
+    { text: "तेरी मुस्कुराहट पर मरते हैं हम,<br>तुझे खोने से डरता है ये दिल हरदम। 🥰💓", cat: "romantic" },
+    { text: "تیری مسکراہٹ پر مرتے ہیں ہم،<br>تجھے کھونے سے ڈرتا ہے یہ دل ہردم۔ 🥰💓", cat: "romantic" },
+
+    { text: "Suno tum meri jaan se pyare ho,<br>Andheri raaton mein chamakte sitare ho. ✨🌟", cat: "romantic" },
+    { text: "सुनो तुम मेरी जान से प्यारे हो,<br>अंधेरी रातों में चमकते सितारे हो। ✨🌟", cat: "romantic" },
+    { text: "سنو تم میری جان سے پیارے ہو،<br>اندھیری راتوں میں چمکتے ستارے ہو۔ ✨🌟", cat: "romantic" },
+
+    { text: "Kaash tum hamesha mere paas raho,<br>Dil ki har baat mere sath kaho. 💖🗣️", cat: "romantic" },
+    { text: "काश तुम हमेशा मेरे पास रहो,<br>दिल की हर बात मेरे साथ कहो। 💖🗣️", cat: "romantic" },
+    { text: "کاش تم ہمیشہ میرے پاس رہو،<br>دل کی ہر بات میرے ساتھ کہو۔ 💖🗣️", cat: "romantic" },
+
+    { text: "Tumhari ek jhalak hi kafi hai,<br>Sari thakan mitane ke liye. 😊🌈", cat: "romantic" },
+    { text: "तुम्हारी एक झलक ही काफी है,<br>सारी थकान मिटाने के लिए। 😊🌈", cat: "romantic" },
+    { text: "تمہاری ایک جھلک ہی کافی ہے،<br>ساری تھکن مٹانے کے لیے۔ 😊🌈", cat: "romantic" },
+
+    { text: "Pyaar ka rang kabhi pheeka na pade,<br>Hum dono ka sath kabhi na chhute. 🤝❤️", cat: "romantic" },
+    { text: "प्यार का रंग कभी फीका ना पड़े,<br>हम दोनों का साथ कभी ना छूटे। 🤝❤️", cat: "romantic" },
+    { text: "پیار کا رنگ کبھی پھیکا نہ پڑے،<br>ہم دونوں کا ساتھ کبھی نہ چھوٹے۔ 🤝❤️", cat: "romantic" },
+
+    { text: "Meri duniya tumse shuru hoti hai,<br>Tumhare bina ye adhuri lagti hai. 🌍💫", cat: "romantic" },
+    { text: "मेरी दुनिया तुमसे शुरू होती है,<br>तुम्हारे बिना ये अधूरी लगती है। 🌍💫", cat: "romantic" },
+    { text: "میری دنیا تم سے شروع ہوتی ہے،<br>تمہارے بنا یہ ادھوری لگتی ہے۔ 🌍💫", cat: "romantic" },
+
+    { text: "Tujhe palkon par bithana chahta hoon,<br>Har khushi tere kadmon mein lana chahta hoon. 👑🌹", cat: "romantic" },
+    { text: "तुझे पलकों पर बिठाना चाहता हूँ,<br>हर खुशी तेरे कदमों में लाना चाहता हूँ। 👑🌹", cat: "romantic" },
+    { text: "تجھے پلکوں پر بٹھانا چاہتا ہوں،<br>ہر خوشی تیرے قدموں میں لانا چاہتا ہوں۔ 👑🌹", cat: "romantic" },
+      
   
     ];
 
